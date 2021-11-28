@@ -153,3 +153,38 @@ Unit pt-device-manager.service could not be found.
 ** Message: 19:30:14.414: wlan0: Received scan results
 ** Message: 19:31:14.426: wlan0: Received scan results
 ** Message: 19:32:14.367: wlan0: Received scan results
+** Message: 19:33:14.436: wlan0: Received scan results
+** Message: 19:33:14.684: wlan0: Disassociated from IoT_5GHz_1
+** Message: 19:33:14.688: Status changed to disconnected
+** Message: 19:33:17.733: wlan0: Associated with IoT_5GHz_2
+** Message: 19:33:17.743: Status changed to connecting
+** Message: 19:33:22.394: wlan0: Configured 192.168.1.208/24
+** Message: 19:33:22.395: Status changed to connected
+** Message: 19:34:14.391: wlan0: Received scan results
+** Message: 19:35:14.394: wlan0: Received scan results
+** Message: 19:36:14.404: wlan0: Received scan results
+** Message: 19:37:14.404: wlan0: Received scan results
+** Message: 19:38:14.415: wlan0: Received scan results
+** Message: 19:38:14.696: wlan0: Disassociated from IoT_5GHz_2
+** Message: 19:38:14.705: Status changed to disconnected
+** Message: 19:38:17.293: wlan0: Associated with IoT_5GHz_1
+** Message: 19:38:17.307: Status changed to connecting
+** Message: 19:38:22.596: wlan0: Configured 192.168.1.208/24
+** Message: 19:38:22.596: Status changed to connected
+** Message: 19:39:14.415: wlan0: Received scan results
+** Message: 19:39:14.669: wlan0: Disassociated from IoT_5GHz_1
+** Message: 19:39:14.675: Status changed to disconnected
+** Message: 19:39:17.363: wlan0: Associated with IoT_5GHz_2
+** Message: 19:39:17.375: Status changed to connecting
+** Message: 19:39:22.628: wlan0: Configured 192.168.1.208/24
+** Message: 19:39:22.629: Status changed to connected
+** Message: 19:40:14.424: wlan0: Received scan results
+** Message: 19:41:14.427: wlan0: Received scan results
+** Message: 19:42:14.378: wlan0: Received scan results
+** Message: 19:43:14.386: wlan0: Received scan results
+** Message: 19:43:14.573: wlan0: Disassociated from IoT_5GHz_2
+** Message: 19:43:14.578: Status changed to disconnected
+** Message: 19:43:17.353: wlan0: Associated with IoT_5GHz_1
+** Message: 19:43:17.357: Status changed to connecting
+** Message: 19:43:21.517: wlan0: Configured 192.168.1.208/24
+** Message: 19:43:21.517: Status changed to connected
