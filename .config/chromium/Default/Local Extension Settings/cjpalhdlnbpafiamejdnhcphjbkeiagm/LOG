@@ -1,0 +1,28 @@
+2021/11/22-10:27:36.564 4af Reusing MANIFEST /home/pi/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2021/11/22-10:27:36.565 4af Recovering log #103
+2021/11/22-10:27:36.728 4af Reusing old log /home/pi/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000103.log 
+2021/11/22-10:30:40.142 4af Level-0 table #107: started
+2021/11/22-10:30:40.462 4af Level-0 table #107: 1519613 bytes OK
+2021/11/22-10:30:40.772 4ac Current memtable full; waiting...
+2021/11/22-10:30:40.848 4af Delete type=0 #103
+2021/11/22-10:30:40.851 4af Level-0 table #109: started
+2021/11/22-10:30:42.515 4af Level-0 table #109: 2841203 bytes OK
+2021/11/22-10:30:42.922 4af Delete type=0 #106
+2021/11/22-10:30:42.934 4af Compacting 5@0 + 3@1 files
+2021/11/22-10:30:44.253 4af Generated table #110@0: 18 keys, 2695030 bytes
+2021/11/22-10:30:44.794 4af Generated table #111@0: 6 keys, 2422549 bytes
+2021/11/22-10:30:45.365 4af Generated table #112@0: 8 keys, 2228518 bytes
+2021/11/22-10:30:45.434 4af Generated table #113@0: 7 keys, 150855 bytes
+2021/11/22-10:30:45.434 4af Compacted 5@0 + 3@1 files => 7496952 bytes
+2021/11/22-10:30:45.445 4af compacted to: files[ 0 4 1 0 0 0 0 ]
+2021/11/22-10:30:45.446 4af Delete type=2 #109
+2021/11/22-10:30:45.447 4af Delete type=2 #107
+2021/11/22-10:30:45.447 4af Delete type=2 #95
+2021/11/22-10:30:45.447 4af Delete type=2 #104
+2021/11/22-10:30:45.447 4af Delete type=2 #99
+2021/11/22-10:30:45.447 4af Delete type=2 #97
+2021/11/22-10:30:45.447 4af Delete type=2 #96
+2021/11/22-10:30:45.447 4af Delete type=2 #102
+2021/11/22-10:35:42.828 87c Level-0 table #115: started
+2021/11/22-10:35:43.044 87c Level-0 table #115: 2794691 bytes OK
+2021/11/22-10:35:43.049 87c Delete type=0 #108

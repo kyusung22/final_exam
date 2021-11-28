@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/pi/Desktop/%EC%9C%A4%EA%B7%9C%EC%84%B1/1013%20%EC%88%98%EC%97%85" added="2021-10-13T07:16:35Z" modified="2021-10-27T06:07:14Z" visited="2021-10-13T07:16:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-13T07:16:35Z" count="2"/>
+          <bookmark:application name="xarchiver" exec="&apos;xarchiver %u&apos;" modified="2021-10-27T06:07:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class8/abc.txt" added="2021-10-18T01:38:18Z" modified="2021-10-18T01:38:18Z" visited="2021-10-18T01:38:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-18T01:38:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class8/xyz.txt" added="2021-10-18T01:38:51Z" modified="2021-10-18T01:38:51Z" visited="2021-10-18T01:38:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-18T01:38:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/ggg2/aaa.txt" added="2021-10-20T04:23:31Z" modified="2021-10-20T04:23:31Z" visited="2021-10-20T04:23:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-20T04:23:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/aaa.txt" added="2021-10-20T04:34:15Z" modified="2021-10-20T04:34:15Z" visited="2021-10-20T04:34:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-20T04:34:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/iot/iot.txt" added="2021-10-25T02:03:25Z" modified="2021-10-25T02:03:26Z" visited="2021-10-25T02:03:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-25T02:03:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio/gpio.txt" added="2021-10-25T02:04:00Z" modified="2021-10-25T02:04:00Z" visited="2021-10-25T02:04:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-25T02:04:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio/Untitled-1" added="2021-10-27T06:17:52Z" modified="2021-11-01T01:37:40Z" visited="2021-10-27T06:17:52Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-10-27T06:17:52Z" count="1"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-11-01T01:37:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio/Btn_LED12.py" added="2021-10-27T07:15:21Z" modified="2021-10-27T07:15:21Z" visited="2021-10-27T07:15:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-10-27T07:15:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio/HC_gwaje.py" added="2021-11-01T02:52:22Z" modified="2021-11-01T02:52:22Z" visited="2021-11-01T02:52:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2021-11-01T02:52:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio/PWM_schoolBell.py" added="2021-11-02T00:56:03Z" modified="2021-11-02T00:56:03Z" visited="2021-11-02T00:56:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2021-11-02T00:56:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio/project_Test.py" added="2021-11-02T03:22:19Z" modified="2021-11-02T03:22:19Z" visited="2021-11-02T03:22:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2021-11-02T03:22:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio" added="2021-11-03T07:52:13Z" modified="2021-11-15T02:27:21Z" visited="2021-11-03T07:52:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-11-15T02:27:21Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio/HC_chadan" added="2021-11-03T07:54:46Z" modified="2021-11-03T07:54:46Z" visited="2021-11-03T07:54:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2021-11-03T07:54:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/webapps/ch01/MCP_PWM" added="2021-11-03T08:05:58Z" modified="2021-11-03T08:05:58Z" visited="2021-11-03T08:05:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2021-11-03T08:05:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio/I2C_LCD_driver.py" added="2021-11-07T11:21:47Z" modified="2021-11-07T11:21:47Z" visited="2021-11-07T11:21:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-11-07T11:21:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio/I2C_LCD.py" added="2021-11-07T11:22:16Z" modified="2021-11-07T11:22:16Z" visited="2021-11-07T11:22:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-11-07T11:22:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio/ver1.py" added="2021-11-08T01:55:31Z" modified="2021-11-08T01:55:31Z" visited="2021-11-08T01:55:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-11-08T01:55:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/gpio/app_stary.py" added="2021-11-08T02:36:44Z" modified="2021-11-08T02:36:44Z" visited="2021-11-08T02:36:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-11-08T02:36:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/class/iot" added="2021-11-15T02:26:07Z" modified="2021-11-15T02:26:07Z" visited="2021-11-15T02:26:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-11-15T02:26:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/abc.txt" added="2021-11-17T06:33:47Z" modified="2021-11-17T06:34:37Z" visited="2021-11-17T06:33:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-17T06:34:37Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/subP.py" added="2021-11-17T07:05:50Z" modified="2021-11-17T07:09:13Z" visited="2021-11-17T07:05:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-17T07:09:13Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

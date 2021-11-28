@@ -1,0 +1,7 @@
+[2021-11-21 18:59:26.371] [sharedprocess] [info] Deleted from disk ms-python.vscode-pylance /home/pi/.vscode/extensions/ms-python.vscode-pylance-2021.11.1
+[2021-11-21 18:59:34.667] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-11-21 18:59:34.668] [sharedprocess] [info] [logs cleanup]: Removing log folders '20211112T044450'
+[2021-11-21 18:59:54.699] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-11-21 18:59:54.701] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-11-21 19:00:04.677] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-11-21 19:00:04.684] [sharedprocess] [info] [language pack cache cleanup]: Skipping folder a84c08975c8b2fe92a418936503496c8.ko. Language pack still in use.

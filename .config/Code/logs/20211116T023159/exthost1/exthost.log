@@ -1,0 +1,45 @@
+[2021-11-16 02:32:09.609] [exthost] [info] extension host started
+[2021-11-16 02:32:09.610] [exthost] [info] Skipping acquiring lock for /home/pi/.config/Code/User/workspaceStorage/a6a23638402a07baf2b4ea9ccbe97104.
+[2021-11-16 02:32:10.815] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-11-16 02:32:10.815] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-11-16 02:32:10.884] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-11-16 02:32:10.885] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension
+[2021-11-16 02:32:11.488] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-11-16 02:32:11.488] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pi/.vscode/extensions/ms-toolsai.jupyter-2021.9.1101343141/out/client/extension
+[2021-11-16 02:32:12.169] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage:html'
+[2021-11-16 02:32:12.169] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-11-16 02:32:12.214] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2021-11-16 02:32:12.215] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-11-16 02:32:12.297] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-16 02:32:12.298] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-11-16 02:32:12.309] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-16 02:32:12.310] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-11-16 02:32:14.008] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-16 02:32:14.008] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-11-16 02:32:16.029] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-11-16 02:32:16.029] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pi/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.3/out/extension_renderer/index.js
+[2021-11-16 02:32:16.063] [exthost] [info] eager extensions activated
+[2021-11-16 02:32:16.470] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-11-16 02:32:16.471] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-11-16 02:32:17.270] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-16 02:32:17.270] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-11-16 02:32:17.819] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-11-16 02:32:17.820] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pi/.vscode/extensions/ms-python.vscode-pylance-2021.11.1/dist/extension.bundle.js
+[2021-11-16 02:32:18.851] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-11-16 02:32:18.851] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-11-16 02:32:28.191] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-16 02:32:28.191] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-16 02:32:28.416] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-16 02:32:28.416] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-16 02:32:28.794] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2021-11-16 02:32:28.795] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-server-ready/dist/extension
+[2021-11-16 02:53:14.635] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-11-16 02:53:14.637] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension

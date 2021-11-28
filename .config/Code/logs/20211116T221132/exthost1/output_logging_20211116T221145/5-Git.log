@@ -1,0 +1,84 @@
+git에서 찾은 git 유효성을 검사하는 중
+git에서 git 2.20.1을(를) 사용하는 중
+Opening repository for path='/home/pi/class/gpio' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/pi/class/gpio/project1' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/pi/class/gpio/project1' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/pi/class/gpio/Btn_Event.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/Btn_LED.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/Btn_LED12.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/Btn_Polling.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/Gui_LED.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/Gui_Led_Thread.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/HC_SR04.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/HC_SR501.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/HC_chadan.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/HC_gwaje.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/LED_Blink.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/LED_gwaje.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/MCP_3008.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/MCP_PWM.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/PWM_Buzzer.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/PWM_LED.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/PWM_Servo.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/PWM_schoolBell.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/__pycache__' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/pi/class/gpio/flask' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/pi/class/gpio/gpio.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/pi/class/gpio/llcd' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/pi/class/gpio/project1' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/pi/class/gpio/project1' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/pi/class/gpio/project1/templates' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}

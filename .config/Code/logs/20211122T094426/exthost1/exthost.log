@@ -1,0 +1,65 @@
+[2021-11-22 09:44:36.746] [exthost] [info] extension host started
+[2021-11-22 09:44:36.746] [exthost] [info] Skipping acquiring lock for /home/pi/.config/Code/User/workspaceStorage/a6a23638402a07baf2b4ea9ccbe97104.
+[2021-11-22 09:44:37.372] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-11-22 09:44:37.373] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-11-22 09:44:37.460] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-11-22 09:44:37.468] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension
+[2021-11-22 09:44:37.996] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-11-22 09:44:37.996] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pi/.vscode/extensions/ms-toolsai.jupyter-2021.9.1101343141/out/client/extension
+[2021-11-22 09:44:38.738] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-22 09:44:38.738] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-11-22 09:44:38.755] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-22 09:44:38.755] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-11-22 09:44:39.917] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-22 09:44:39.917] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-11-22 09:44:41.089] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-11-22 09:44:41.089] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-11-22 09:44:41.709] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-11-22 09:44:41.709] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pi/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.3/out/extension_renderer/index.js
+[2021-11-22 09:44:41.722] [exthost] [info] eager extensions activated
+[2021-11-22 09:44:42.520] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-22 09:44:42.520] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-11-22 09:44:42.558] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-22 09:44:42.559] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-11-22 09:44:42.570] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-11-22 09:44:42.570] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pi/.vscode/extensions/ms-python.vscode-pylance-2021.11.2/dist/extension.bundle.js
+[2021-11-22 09:44:43.657] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-11-22 09:44:43.658] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-11-22 09:45:09.185] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2021-11-22 09:45:09.186] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-server-ready/dist/extension
+[2021-11-22 09:48:16.553] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2021-11-22 09:48:16.554] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-11-22 09:49:07.223] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2021-11-22 09:49:07.224] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain
+[2021-11-22 09:50:38.337] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-11-22 09:50:38.339] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-11-22 09:51:09.357] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-22 09:51:09.357] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-22 09:55:42.787] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-22 09:55:42.788] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-22 09:55:43.291] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-22 09:55:43.291] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-22 09:56:05.470] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-22 09:56:05.470] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-22 09:56:05.712] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-22 09:56:05.713] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)

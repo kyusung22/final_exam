@@ -1,0 +1,16 @@
+[20211128-19:27:50] [CORE ] main: app started pid 822(0x00000336)
+[20211128-19:27:50] [INFO ] main: DISPLAY env var set to :10.0
+[20211128-19:27:50] [INFO ] main: using DISPLAY 10
+[20211128-19:27:50] [INFO ] channel_thread_loop: thread start
+[20211128-19:27:51] [INFO ] Socket 12: AF_UNIX connection received
+[20211128-19:29:13] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20211128-19:29:19] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20211128-19:29:25] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20211128-19:29:34] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20211128-19:29:43] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20211128-19:29:56] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20211128-19:30:06] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20211128-19:30:28] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20211128-19:31:05] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20211128-19:31:43] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20211128-19:32:12] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8

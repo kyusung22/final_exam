@@ -1,0 +1,17 @@
+[Info  - 오전 9:44:45] Pylance language server 2021.11.2 (pyright b27108d5) starting
+[Info  - 오전 9:44:45] Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2021.11.2/dist
+[Info  - 오전 9:44:45] No configuration file found.
+[Info  - 오전 9:44:45] No pyproject.toml file found.
+[Info  - 오전 9:44:45] Setting pythonPath for service "gpio": "/bin/python3"
+[Warn  - 오전 9:44:45] stubPath /home/pi/class/gpio/typings is not a valid directory.
+[Info  - 오전 9:44:45] Assuming Python version 3.7
+[Info  - 오전 9:44:45] Assuming Python platform Linux
+[Warn  - 오전 9:44:47] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 오전 9:44:47] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 오전 9:44:47] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 오전 9:44:47] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 오전 9:44:47] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 오전 9:44:47] Searching for source files
+[Info  - 오전 9:44:47] Found 34 source files
+[Info  - 오전 9:44:47] Background analysis(1) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2021.11.2/dist
+[Info  - 오전 9:44:47] Background analysis(1) started
