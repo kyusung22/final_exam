@@ -4,3 +4,4 @@
 [20211129-10:31:21] [INFO ] channel_thread_loop: thread start
 [20211129-10:31:22] [INFO ] Socket 12: AF_UNIX connection received
 [20211129-10:34:30] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20211129-10:43:52] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8

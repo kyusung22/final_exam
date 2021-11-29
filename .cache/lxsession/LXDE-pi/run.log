@@ -169,3 +169,14 @@ Unit pt-device-manager.service could not be found.
 
 (lxterminal:1476): Gdk-WARNING **: 10:42:12.922: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
 ** Message: 10:42:29.022: wlan0: Received scan results
+** Message: 10:43:29.031: wlan0: Received scan results
+** Message: 10:44:29.033: wlan0: Received scan results
+
+(lxterminal:1476): Gdk-WARNING **: 10:44:59.776: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
+
+(lxterminal:1476): Gdk-WARNING **: 10:44:59.776: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
+
+(lxterminal:1476): Gdk-WARNING **: 10:44:59.776: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
+
+(lxterminal:1476): Gdk-WARNING **: 10:44:59.776: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
+** Message: 10:45:29.066: wlan0: Received scan results
