@@ -3,10 +3,31 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "file:///home/pi/classes/iot/ch13/test2"
+            },
+            {
+                "folderUri": "file:///home/pi/classes/iot/ch13/test1"
+            },
+            {
+                "folderUri": "file:///home/pi/classes/iot/ch13/test5"
+            },
+            {
+                "folderUri": "file:///home/pi/class"
+            },
+            {
                 "folderUri": "file:///home/pi/class/gpio"
             },
             {
                 "folderUri": "file:///home/pi/class/iot"
+            },
+            {
+                "fileUri": "file:///home/pi/newF/asd.py"
+            },
+            {
+                "fileUri": "file:///home/pi/classes/iot/ch13/test123/test123.py"
+            },
+            {
+                "fileUri": "file:///home/pi/classes/iot/ch13/test123/test123"
             },
             {
                 "fileUri": "file:///home/pi/class/gpio/flask/templates/index.html"
@@ -32,6 +53,10 @@
                         "label": "새 창(&&W)"
                     },
                     {
+                        "id": "welcome.showNewFileEntries",
+                        "label": "새 파일..."
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -53,8 +78,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "닫힌 편집기 다시 열기(&&R)",
-                                    "enabled": false
+                                    "label": "닫힌 편집기 다시 열기(&&R)"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -63,7 +87,51 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/pi/class/gpio",
+                                        "fsPath": "/home/pi/classes/iot/ch13/test2",
+                                        "external": "file:///home/pi/classes/iot/ch13/test2",
+                                        "path": "/home/pi/classes/iot/ch13/test2",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/classes/iot/ch13/test2"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/classes/iot/ch13/test1",
+                                        "path": "/home/pi/classes/iot/ch13/test1",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/classes/iot/ch13/test1"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/classes/iot/ch13/test5",
+                                        "path": "/home/pi/classes/iot/ch13/test5",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/classes/iot/ch13/test5"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/class",
+                                        "path": "/home/pi/class",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/class"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/pi/class/gpio",
                                         "path": "/home/pi/class/gpio",
                                         "scheme": "file"
@@ -84,6 +152,39 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/newF/asd.py",
+                                        "path": "/home/pi/newF/asd.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/newF/asd.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/classes/iot/ch13/test123/test123.py",
+                                        "path": "/home/pi/classes/iot/ch13/test123/test123.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/classes/iot/ch13/test123/test123.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/classes/iot/ch13/test123/test123",
+                                        "path": "/home/pi/classes/iot/ch13/test123/test123",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/classes/iot/ch13/test123/test123"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -163,8 +264,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "모두 저장(&&L)",
-                        "enabled": false
+                        "label": "모두 저장(&&L)"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -226,6 +326,13 @@
                                 {
                                     "id": "workbench.action.selectProductIconTheme",
                                     "label": "제품 아이콘 테마(&&P)"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.userDataSync.actions.turnOn",
+                                    "label": "설정 동기화 켜기..."
                                 }
                             ]
                         }
@@ -454,8 +561,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "패널 표시(&&P)",
-                                    "checked": true
+                                    "label": "패널 표시(&&P)"
                                 },
                                 {
                                     "id": "workbench.action.toggleEditorVisibility",
@@ -588,6 +694,10 @@
                         "label": "실행(&&R)"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "테스트(&E)"
+                    },
+                    {
                         "id": "workbench.view.extensions",
                         "label": "확장(&&X)"
                     },
@@ -601,6 +711,10 @@
                     {
                         "id": "workbench.action.output.toggleOutput",
                         "label": "출력(&&O)"
+                    },
+                    {
+                        "id": "workbench.debug.action.toggleRepl",
+                        "label": "디버그 콘솔(&&B)"
                     },
                     {
                         "id": "workbench.action.terminal.toggleTerminal",
@@ -648,8 +762,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "마지막 편집 위치(&&L)",
-                        "enabled": false
+                        "label": "마지막 편집 위치(&&L)"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -843,6 +956,116 @@
                     }
                 ]
             },
+            "Run": {
+                "items": [
+                    {
+                        "id": "workbench.action.debug.start",
+                        "label": "디버깅 시작(&&S)"
+                    },
+                    {
+                        "id": "workbench.action.debug.run",
+                        "label": "디버깅 없이 실행(&&W)"
+                    },
+                    {
+                        "id": "workbench.action.debug.stop",
+                        "label": "디버깅 중지(&&S)",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.debug.restart",
+                        "label": "디버깅 다시 시작(&&R)",
+                        "enabled": false
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.action.debug.configure",
+                        "label": "구성 열기(&&C)",
+                        "enabled": false
+                    },
+                    {
+                        "id": "debug.addConfiguration",
+                        "label": "구성 추가(&&D)..."
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.action.debug.stepOver",
+                        "label": "프로시저 단위 실행(&&O)",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.debug.stepInto",
+                        "label": "한 단계씩 코드 실행(&&I)",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.debug.stepOut",
+                        "label": "프로시저 나가기(&&U)",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.debug.continue",
+                        "label": "계속(&&C)",
+                        "enabled": false
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "editor.debug.action.toggleBreakpoint",
+                        "label": "중단점 설정/해제(&&B)"
+                    },
+                    {
+                        "id": "submenuitem.28",
+                        "label": "새 중단점(&&N)",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "editor.debug.action.conditionalBreakpoint",
+                                    "label": "조건부 중단점(&&C)..."
+                                },
+                                {
+                                    "id": "editor.debug.action.toggleInlineBreakpoint",
+                                    "label": "인라인 중단점(&&O)"
+                                },
+                                {
+                                    "id": "workbench.debug.viewlet.action.addFunctionBreakpointAction",
+                                    "label": "함수 중단점(&&F)..."
+                                },
+                                {
+                                    "id": "editor.debug.action.addLogPoint",
+                                    "label": "&&Logpoint..."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.debug.viewlet.action.enableAllBreakpoints",
+                        "label": "모든 중단점 사용(&&E)"
+                    },
+                    {
+                        "id": "workbench.debug.viewlet.action.disableAllBreakpoints",
+                        "label": "모든 중단점 사용 안 함(&&L)"
+                    },
+                    {
+                        "id": "workbench.debug.viewlet.action.removeAllBreakpoints",
+                        "label": "모든 중단점 제거(&&A)"
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "debug.installAdditionalDebuggers",
+                        "label": "추가 디버거 설치(&&I)..."
+                    }
+                ]
+            },
             "Terminal": {
                 "items": [
                     {
@@ -858,12 +1081,49 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
+                        "id": "workbench.action.tasks.runTask",
+                        "label": "작업 실행(&&R)..."
+                    },
+                    {
+                        "id": "workbench.action.tasks.build",
+                        "label": "빌드 작업 실행(&&B)..."
+                    },
+                    {
                         "id": "workbench.action.terminal.runActiveFile",
                         "label": "활성 파일 실행(&&A)"
                     },
                     {
                         "id": "workbench.action.terminal.runSelectedText",
                         "label": "선택한 텍스트 실행(&&S)"
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.action.tasks.showTasks",
+                        "label": "실행 중인 작업 표시(&&G)...",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.tasks.restartTask",
+                        "label": "실행 중인 작업 다시 시작(&&E)...",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.tasks.terminate",
+                        "label": "작업 종료(&&T)...",
+                        "enabled": false
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.action.tasks.configureTaskRunner",
+                        "label": "작업 구성(&&C)..."
+                    },
+                    {
+                        "id": "workbench.action.tasks.configureDefaultBuildTask",
+                        "label": "기본 빌드 작업 구성(&&F)..."
                     }
                 ]
             },
@@ -959,6 +1219,10 @@
             "workbench.action.newWindow": {
                 "label": "Ctrl+Shift+N",
                 "userSettingsLabel": "ctrl+shift+n"
+            },
+            "welcome.showNewFileEntries": {
+                "label": "Ctrl+Alt+Super+N",
+                "userSettingsLabel": "ctrl+alt+meta+n"
             },
             "workbench.action.files.openFile": {
                 "label": "Ctrl+O",
@@ -1188,6 +1452,10 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+h"
             },
+            "workbench.debug.action.toggleRepl": {
+                "label": "Ctrl+Shift+Y",
+                "userSettingsLabel": "ctrl+shift+y"
+            },
             "workbench.action.terminal.toggleTerminal": {
                 "label": "Ctrl+`",
                 "isNative": false,
@@ -1319,6 +1587,46 @@
                 "label": "Shift+Alt+F3",
                 "userSettingsLabel": "shift+alt+f3"
             },
+            "workbench.action.debug.start": {
+                "label": "F5",
+                "userSettingsLabel": "f5"
+            },
+            "workbench.action.debug.run": {
+                "label": "Ctrl+F5",
+                "userSettingsLabel": "ctrl+f5"
+            },
+            "workbench.action.debug.stop": {
+                "label": "Shift+F5",
+                "userSettingsLabel": "shift+f5"
+            },
+            "workbench.action.debug.restart": {
+                "label": "Ctrl+Shift+F5",
+                "userSettingsLabel": "ctrl+shift+f5"
+            },
+            "workbench.action.debug.stepOver": {
+                "label": "F10",
+                "userSettingsLabel": "f10"
+            },
+            "workbench.action.debug.stepInto": {
+                "label": "F11",
+                "userSettingsLabel": "f11"
+            },
+            "workbench.action.debug.stepOut": {
+                "label": "Shift+F11",
+                "userSettingsLabel": "shift+f11"
+            },
+            "workbench.action.debug.continue": {
+                "label": "F5",
+                "userSettingsLabel": "f5"
+            },
+            "editor.debug.action.toggleBreakpoint": {
+                "label": "F9",
+                "userSettingsLabel": "f9"
+            },
+            "editor.debug.action.toggleInlineBreakpoint": {
+                "label": "Shift+F9",
+                "userSettingsLabel": "shift+f9"
+            },
             "workbench.action.terminal.new": {
                 "label": "Ctrl+<Shift>+`",
                 "isNative": false,
@@ -1327,6 +1635,10 @@
             "workbench.action.terminal.split": {
                 "label": "Ctrl+Shift+5",
                 "userSettingsLabel": "ctrl+shift+5"
+            },
+            "workbench.action.tasks.build": {
+                "label": "Ctrl+Shift+B",
+                "userSettingsLabel": "ctrl+shift+b"
             },
             "workbench.action.keybindingsReference": {
                 "label": "Ctrl+K Ctrl+R",
@@ -1358,24 +1670,47 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 256,
+            "sideBarWidth": 349,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/pi/class/gpio",
-            "backupPath": "/home/pi/.config/Code/Backups/e356b2793b157460bed0c9bf6cdbeb98",
+            "folder": "file:///home/pi/classes/iot/ch13/test2",
+            "backupPath": "/home/pi/.config/Code/Backups/1d35b05680243f6cdb88fb24b393b9f8",
             "uiState": {
-                "mode": 1,
-                "x": 14,
-                "y": 66,
-                "width": 1437,
-                "height": 1014
+                "mode": 0,
+                "x": 548,
+                "y": 30,
+                "width": 1024,
+                "height": 1046
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///home/pi/class",
+                "backupPath": "/home/pi/.config/Code/Backups/a344d1171350abaf636c703a6192f8c6",
+                "uiState": {
+                    "mode": 0,
+                    "x": 327,
+                    "y": 325,
+                    "width": 1437,
+                    "height": 1014
+                }
+            },
+            {
+                "folder": "file:///home/pi/classes/iot/ch13/test2",
+                "backupPath": "/home/pi/.config/Code/Backups/1d35b05680243f6cdb88fb24b393b9f8",
+                "uiState": {
+                    "mode": 0,
+                    "x": 548,
+                    "y": 30,
+                    "width": 1024,
+                    "height": 1046
+                }
+            }
+        ]
     },
-    "pickerWorkingDir": "/home/pi/class"
+    "pickerWorkingDir": "/home/pi/classes/iot/ch13"
 }
