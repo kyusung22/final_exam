@@ -1,0 +1,12 @@
+[2021-12-08 12:11:31.215] [main] [info] update#setState idle
+[2021-12-08 12:12:01.219] [main] [info] update#setState checking for updates
+[2021-12-08 12:12:01.356] [main] [info] update#setState idle
+[2021-12-08 12:34:58.382] [main] [warning] Error attempting to set a password:  {}
+[2021-12-08 12:34:58.625] [main] [warning] Error attempting to set a password:  {}
+[2021-12-08 12:34:58.863] [main] [warning] Error attempting to set a password:  {}
+[2021-12-08 13:12:01.245] [main] [info] update#setState checking for updates
+[2021-12-08 13:12:01.888] [main] [info] update#setState idle
+[2021-12-08 14:12:01.312] [main] [info] update#setState checking for updates
+[2021-12-08 14:12:01.959] [main] [info] update#setState idle
+[2021-12-08 15:12:01.416] [main] [info] update#setState checking for updates
+[2021-12-08 15:12:01.825] [main] [info] update#setState idle

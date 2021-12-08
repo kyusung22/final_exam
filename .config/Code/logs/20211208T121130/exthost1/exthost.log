@@ -1,0 +1,36 @@
+[2021-12-08 12:11:39.620] [exthost] [info] Extension host with pid 3651 started
+[2021-12-08 12:11:39.621] [exthost] [info] Skipping acquiring lock for /home/pi/.config/Code/User/workspaceStorage/a0233c2a176c49e6e7b3f54a17855115.
+[2021-12-08 12:11:40.229] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-08 12:11:40.337] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-12-08 12:11:40.846] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-08 12:11:41.486] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-08 12:11:41.504] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-08 12:11:43.132] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-08 12:11:43.339] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-12-08 12:11:43.361] [exthost] [info] Eager extensions activated
+[2021-12-08 12:11:43.634] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-08 12:11:44.049] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-08 12:11:44.098] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-08 12:11:44.110] [exthost] [error] Activating extension ms-python.vscode-pylance failed due to an error:
+[2021-12-08 12:11:44.110] [exthost] [error] Error: Cannot find module '/home/pi/.vscode/extensions/ms-python.vscode-pylance-2021.12.0/dist/extension.bundle.js'
+Require stack:
+- /usr/share/code/resources/app/out/vs/loader.js
+- /usr/share/code/resources/app/out/bootstrap-amd.js
+- /usr/share/code/resources/app/out/bootstrap-fork.js
+	at Function.Module._resolveFilename (internal/modules/cjs/loader.js:934:15)
+	at Module._load (internal/modules/cjs/loader.js:779:27)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.n._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:28606)
+	at Function.b._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:25193)
+	at Function.h._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:60406)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at Module.require (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:1:38461)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.r [as __$__nodeRequire] (/usr/share/code/resources/app/out/vs/loader.js:5:101)
+	at w._loadCommonJSModule (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:26603)
+	at w._doActivateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:12894)
+	at w._activateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11867)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 0)
+[2021-12-08 15:33:50.809] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-08 15:33:51.903] [exthost] [info] Extension host with pid 3651 exiting with code 0

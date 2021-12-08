@@ -1,0 +1,75 @@
+Experiment 'pythonaa' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+Experiment 'pythonDeprecatePythonPath' is active
+Experiment 'pythonRunFailedTestsButtonDisplayed' is active
+Experiment 'pythonRefreshTestsButtonDisplayed' is active
+Experiment 'pythonRememberDebugConfig' is active
+> conda info --json
+> /bin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /bin/python3 ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /usr/include/python3.7 ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python3
+Starting Pylance language server.
+Error 2021-12-07 20:34:36: Failed to start language server, Class name = r, completed in 0ms, has a falsy return value, Arg 1: <Uri:/home/pi/classes/iot/ch13/final2/file.py>, Arg 2: {"sysPrefix":"/usr","envType":"Global","envName":"","envPath":"","path":"/bin/python3","architecture":2,"sysVersion":"3.7.3 (default, Jan 22 2021, 20:04:44) \n[GCC 8.3.0]","version":{"raw":"3.7.3","major":3,"minor":7,"patch":3,"build":[],"prerelease":["final","0"]},"displayName":"Python 3.7.3 32-bit"}, Return Value: undefined [Error: ms-python.vscode-pylance not installed
+	at d.getCurrentLanguageServerDirectory (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:665274)
+	at async r.start (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:671209)]
+Error 2021-12-07 20:34:36: [Error: ms-python.vscode-pylance not installed
+	at d.getCurrentLanguageServerDirectory (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:665274)
+	at async r.start (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:671209)]
+We encountered an issue starting the language server. Reverting to Jedi language engine. Check the Python output panel for details.
+Error 2021-12-07 20:34:36: Failed to activate language server, Class name = a, completed in 10ms, has a falsy return value, Arg 1: <Uri:/home/pi/classes/iot/ch13/final2/file.py>, Arg 2: {"sysPrefix":"/usr","envType":"Global","envName":"","envPath":"","path":"/bin/python3","architecture":2,"sysVersion":"3.7.3 (default, Jan 22 2021, 20:04:44) \n[GCC 8.3.0]","version":{"raw":"3.7.3","major":3,"minor":7,"patch":3,"build":[],"prerelease":["final","0"]},"displayName":"Python 3.7.3 32-bit"}, Return Value: undefined [Error: ms-python.vscode-pylance not installed
+	at d.getCurrentLanguageServerDirectory (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:665274)
+	at async r.start (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:671209)]
+Error 2021-12-07 20:34:36: Failed to activate a workspace, Class name = m, completed in 887ms, has a falsy return value, Arg 1: <Uri:/home/pi/classes/iot/ch13/final2/file.py>, Return Value: undefined [Error: No matching bindings found for serviceIdentifier: Symbol(ILanguageServerActivator)
+ Symbol(ILanguageServerActivator) - named: Jedi 
+
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:153777
+	at m (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:154074)
+	at e (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:154565)
+	at Object.t.plan (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:155228)
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:151812
+	at e._get (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:151721)
+	at e.getTagged (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:150524)
+	at e.getNamed (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:150616)
+	at a.get (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:78:330351)
+	at _.createRefCountedServer (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:193687)
+	at async _.activate (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:191145)
+	at async Promise.all (index 5)
+	at async m.activateWorkspace (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:186692)]
+Error 2021-12-07 20:34:36: Failure during activation. [Error: No matching bindings found for serviceIdentifier: Symbol(ILanguageServerActivator)
+ Symbol(ILanguageServerActivator) - named: Jedi 
+
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:153777
+	at m (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:154074)
+	at e (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:154565)
+	at Object.t.plan (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:155228)
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:151812
+	at e._get (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:151721)
+	at e.getTagged (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:150524)
+	at e.getNamed (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:150616)
+	at a.get (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:78:330351)
+	at _.createRefCountedServer (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:193687)
+	at async _.activate (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:191145)
+	at async Promise.all (index 5)
+	at async m.activateWorkspace (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:186692)]
+Error 2021-12-07 20:34:36: sendStartupTelemetry() failed. [Error: No matching bindings found for serviceIdentifier: Symbol(ILanguageServerActivator)
+ Symbol(ILanguageServerActivator) - named: Jedi 
+
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:153777
+	at m (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:154074)
+	at e (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:154565)
+	at Object.t.plan (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:155228)
+	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:151812
+	at e._get (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:151721)
+	at e.getTagged (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:150524)
+	at e.getNamed (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:150616)
+	at a.get (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:78:330351)
+	at _.createRefCountedServer (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:193687)
+	at async _.activate (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:191145)
+	at async Promise.all (index 5)
+	at async m.activateWorkspace (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:186692)]
+Error 2021-12-07 20:43:06: Error while running worker[Worker 2]. undefined
+Error 2021-12-07 20:43:06: Error while running worker[Worker 1]. undefined

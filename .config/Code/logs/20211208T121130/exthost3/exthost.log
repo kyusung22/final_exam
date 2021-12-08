@@ -1,0 +1,21 @@
+[2021-12-08 12:37:46.196] [exthost] [info] Extension host with pid 6131 started
+[2021-12-08 12:37:46.790] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-08 12:37:46.831] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-08 12:37:46.838] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-08 12:37:47.241] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-08 12:37:47.271] [exthost] [info] Eager extensions activated
+[2021-12-08 12:37:47.299] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-08 12:37:47.511] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-08 12:38:05.593] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-08 12:38:06.608] [exthost] [info] Extension host with pid 6131 exiting with code 0
+[2021-12-08 12:38:12.897] [exthost] [info] Extension host with pid 6215 started
+[2021-12-08 12:38:12.897] [exthost] [info] Skipping acquiring lock for /home/pi/.config/Code/User/workspaceStorage/b2c323667bfadede40358b68a7f2e626.
+[2021-12-08 12:38:13.200] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-08 12:38:13.237] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-08 12:38:13.244] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-08 12:38:14.154] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-08 12:38:14.819] [exthost] [info] Eager extensions activated
+[2021-12-08 12:38:14.877] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-08 12:38:14.915] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-08 12:38:28.537] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-08 12:38:29.560] [exthost] [info] Extension host with pid 6215 exiting with code 0

@@ -1,0 +1,15 @@
+Validating found git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/pi/classes/iot/ch13/final
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :file.py
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final/file.py
+> git cat-file -s d392f1ae2e181cc1b9f33472b75048b6b29138c6
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/classes/iot/ch13/final/file.py

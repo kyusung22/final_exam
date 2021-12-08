@@ -1,126 +1,126 @@
-** Message: 10:31:22.969: environement.vala:58: Exporting primary_variable
-** Message: 10:31:22.969: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
-** Message: 10:31:22.969: environement.vala:150: confir_dirs is null, export : /etc/xdg
-** Message: 10:31:22.969: environement.vala:184: Exporting XDG_CONFIG_DIRS
-** Message: 10:31:22.969: environement.vala:218: custom_data :
-** Message: 10:31:22.969: environement.vala:219: data_dirs :/usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 10:31:22.969: environement.vala:220: data_dirs not null, export : /usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 10:31:22.969: environement.vala:225: Exporting XDG_DATA_DIRS
-** Message: 10:31:22.969: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 10:31:22.970: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
-** Message: 10:31:22.970: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/desktop.conf
-** Message: 10:31:22.970: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 10:31:22.970: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 09:34:30.344: environement.vala:58: Exporting primary_variable
+** Message: 09:34:30.344: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 09:34:30.345: environement.vala:150: confir_dirs is null, export : /etc/xdg
+** Message: 09:34:30.345: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 09:34:30.345: environement.vala:218: custom_data :
+** Message: 09:34:30.345: environement.vala:219: data_dirs :/usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 09:34:30.345: environement.vala:220: data_dirs not null, export : /usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 09:34:30.345: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 09:34:30.346: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 09:34:30.349: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 09:34:30.349: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 09:34:30.349: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 09:34:30.350: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
 
-** (lxsession:987): WARNING **: 10:31:22.971: utils.vala:70: 그런 파일이나 디렉터리가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “GTK” 그룹의 “iGtk/ColorScheme” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “windows_manager/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “panel/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “dock/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “file_manager/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “desktop_manager/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “launcher_manager/autostart” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “composite_manager/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “im1/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “im2/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “widget1/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “notification/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “keybindings/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “im_manager/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “screensaver/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “power_manager/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “audio_manager/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “workspace_manager/command” 키가 없습니다
-** Message: 10:31:22.972: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “screenshot_manager/command” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “message_manager/command” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “upgrade_manager/command” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “updates_manager/command” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “updates_manager/timeout” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “crash_manager/command” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “crash_manager/dev_mode” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “crash_manager/timeout” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “upstart_user_session” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “proxy_manager/http” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “a11y/command” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “xrandr/command” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “network_gui/command” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “webbrowser/command” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “email/command” 키가 없습니다
-** Message: 10:31:22.973: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “pdf_reader/command” 키가 없습니다
-** Message: 10:31:22.974: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “video_player/command” 키가 없습니다
-** Message: 10:31:22.974: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “audio_player/command” 키가 없습니다
-** Message: 10:31:22.974: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “images_display/command” 키가 없습니다
-** Message: 10:31:22.974: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “text_editor/command” 키가 없습니다
-** Message: 10:31:22.974: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “archive/command” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “charmap/command” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “calculator/command” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “spreadsheet/command” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “bittorent/command” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “document/command” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “webcam/command” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “burn/command” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “notes/command” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “disk_utility/command” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “tasks/command” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 “Keymap” 그룹이 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “State” 그룹의 “laptop_mode” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Dbus” 그룹의 “gnome” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “type” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “ubuntu_menuproxy” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “toolkit_integration” 키가 없습니다
-** Message: 10:31:22.975: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “gtk/overlay_scrollbar_disable” 키가 없습니다
-** Message: 10:31:22.976: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “qt/force_theme” 키가 없습니다
-** Message: 10:31:22.976: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “qt/platform” 키가 없습니다
-** Message: 10:31:22.976: settings.vala:462: Monitoring: /etc/xdg/lxsession/LXDE-pi/desktop.conf
-** Message: 10:31:22.976: settings.vala:470: Desktop file is not in config home, monitoring creation of it
-** Message: 10:31:22.976: settings.vala:485: Monitoring home path: /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-** Message: 10:31:22.976: environement.vala:79: Exporting variable
-** Message: 10:31:22.976: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
-** Message: 10:31:22.976: environement.vala:177: custom_config :
-** Message: 10:31:22.976: environement.vala:178: config_dirs :/etc/xdg
-** Message: 10:31:22.976: environement.vala:179: confir_dirs not null, export : /etc/xdg
-** Message: 10:31:22.977: environement.vala:184: Exporting XDG_CONFIG_DIRS
-** Message: 10:31:22.977: environement.vala:218: custom_data :
-** Message: 10:31:22.977: environement.vala:219: data_dirs :/usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 10:31:22.977: environement.vala:220: data_dirs not null, export : /usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 10:31:22.977: environement.vala:225: Exporting XDG_DATA_DIRS
-** Message: 10:31:22.977: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 10:31:22.977: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** (lxsession:944): WARNING **: 09:34:30.351: utils.vala:70: 그런 파일이나 디렉터리가 없습니다
+** Message: 09:34:30.351: settings.vala:540: 키 파일에 있는 “GTK” 그룹의 “iGtk/ColorScheme” 키가 없습니다
+** Message: 09:34:30.352: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “windows_manager/command” 키가 없습니다
+** Message: 09:34:30.352: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “panel/command” 키가 없습니다
+** Message: 09:34:30.352: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “dock/command” 키가 없습니다
+** Message: 09:34:30.352: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “file_manager/command” 키가 없습니다
+** Message: 09:34:30.352: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “desktop_manager/command” 키가 없습니다
+** Message: 09:34:30.352: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “launcher_manager/autostart” 키가 없습니다
+** Message: 09:34:30.352: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “composite_manager/command” 키가 없습니다
+** Message: 09:34:30.352: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “im1/command” 키가 없습니다
+** Message: 09:34:30.352: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “im2/command” 키가 없습니다
+** Message: 09:34:30.352: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “widget1/command” 키가 없습니다
+** Message: 09:34:30.352: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “notification/command” 키가 없습니다
+** Message: 09:34:30.353: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “keybindings/command” 키가 없습니다
+** Message: 09:34:30.353: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “im_manager/command” 키가 없습니다
+** Message: 09:34:30.353: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “screensaver/command” 키가 없습니다
+** Message: 09:34:30.353: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “power_manager/command” 키가 없습니다
+** Message: 09:34:30.353: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “audio_manager/command” 키가 없습니다
+** Message: 09:34:30.353: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “workspace_manager/command” 키가 없습니다
+** Message: 09:34:30.353: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “screenshot_manager/command” 키가 없습니다
+** Message: 09:34:30.353: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “message_manager/command” 키가 없습니다
+** Message: 09:34:30.353: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “upgrade_manager/command” 키가 없습니다
+** Message: 09:34:30.354: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “updates_manager/command” 키가 없습니다
+** Message: 09:34:30.354: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “updates_manager/timeout” 키가 없습니다
+** Message: 09:34:30.354: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “crash_manager/command” 키가 없습니다
+** Message: 09:34:30.354: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “crash_manager/dev_mode” 키가 없습니다
+** Message: 09:34:30.354: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “crash_manager/timeout” 키가 없습니다
+** Message: 09:34:30.354: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “upstart_user_session” 키가 없습니다
+** Message: 09:34:30.354: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “proxy_manager/http” 키가 없습니다
+** Message: 09:34:30.354: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “a11y/command” 키가 없습니다
+** Message: 09:34:30.354: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “xrandr/command” 키가 없습니다
+** Message: 09:34:30.354: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “network_gui/command” 키가 없습니다
+** Message: 09:34:30.355: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “webbrowser/command” 키가 없습니다
+** Message: 09:34:30.355: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “email/command” 키가 없습니다
+** Message: 09:34:30.355: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “pdf_reader/command” 키가 없습니다
+** Message: 09:34:30.355: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “video_player/command” 키가 없습니다
+** Message: 09:34:30.355: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “audio_player/command” 키가 없습니다
+** Message: 09:34:30.355: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “images_display/command” 키가 없습니다
+** Message: 09:34:30.355: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “text_editor/command” 키가 없습니다
+** Message: 09:34:30.355: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “archive/command” 키가 없습니다
+** Message: 09:34:30.355: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “charmap/command” 키가 없습니다
+** Message: 09:34:30.355: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “calculator/command” 키가 없습니다
+** Message: 09:34:30.355: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “spreadsheet/command” 키가 없습니다
+** Message: 09:34:30.356: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “bittorent/command” 키가 없습니다
+** Message: 09:34:30.356: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “document/command” 키가 없습니다
+** Message: 09:34:30.356: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “webcam/command” 키가 없습니다
+** Message: 09:34:30.356: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “burn/command” 키가 없습니다
+** Message: 09:34:30.356: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “notes/command” 키가 없습니다
+** Message: 09:34:30.356: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “disk_utility/command” 키가 없습니다
+** Message: 09:34:30.356: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “tasks/command” 키가 없습니다
+** Message: 09:34:30.356: settings.vala:540: 키 파일에 “Keymap” 그룹이 없습니다
+** Message: 09:34:30.356: settings.vala:540: 키 파일에 있는 “State” 그룹의 “laptop_mode” 키가 없습니다
+** Message: 09:34:30.356: settings.vala:540: 키 파일에 있는 “Dbus” 그룹의 “gnome” 키가 없습니다
+** Message: 09:34:30.357: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “type” 키가 없습니다
+** Message: 09:34:30.357: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “ubuntu_menuproxy” 키가 없습니다
+** Message: 09:34:30.357: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “toolkit_integration” 키가 없습니다
+** Message: 09:34:30.357: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “gtk/overlay_scrollbar_disable” 키가 없습니다
+** Message: 09:34:30.357: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “qt/force_theme” 키가 없습니다
+** Message: 09:34:30.357: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “qt/platform” 키가 없습니다
+** Message: 09:34:30.358: settings.vala:462: Monitoring: /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 09:34:30.358: settings.vala:470: Desktop file is not in config home, monitoring creation of it
+** Message: 09:34:30.358: settings.vala:485: Monitoring home path: /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: 09:34:30.358: environement.vala:79: Exporting variable
+** Message: 09:34:30.358: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 09:34:30.358: environement.vala:177: custom_config :
+** Message: 09:34:30.359: environement.vala:178: config_dirs :/etc/xdg
+** Message: 09:34:30.359: environement.vala:179: confir_dirs not null, export : /etc/xdg
+** Message: 09:34:30.359: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 09:34:30.359: environement.vala:218: custom_data :
+** Message: 09:34:30.359: environement.vala:219: data_dirs :/usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 09:34:30.359: environement.vala:220: data_dirs not null, export : /usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 09:34:30.359: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 09:34:30.359: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 09:34:30.359: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
 
-** (lxsession:987): WARNING **: 10:31:22.977: utils.vala:70: 그런 파일이나 디렉터리가 없습니다
-** Message: 10:31:22.977: environement.vala:254: No entry in [Environment_variable]. 키 파일에 “Environment_variable” 그룹이 없습니다
-** Message: 10:31:22.983: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 10:31:22.983: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
-** Message: 10:31:22.983: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
-** Message: 10:31:22.983: options.vala:164: Activate xsettings_manager build-in
-** Message: 10:31:22.984: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 10:31:22.984: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** (lxsession:944): WARNING **: 09:34:30.360: utils.vala:70: 그런 파일이나 디렉터리가 없습니다
+** Message: 09:34:30.360: environement.vala:254: No entry in [Environment_variable]. 키 파일에 “Environment_variable” 그룹이 없습니다
+** Message: 09:34:30.368: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 09:34:30.368: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 09:34:30.368: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 09:34:30.368: options.vala:164: Activate xsettings_manager build-in
+** Message: 09:34:30.369: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 09:34:30.369: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
 
-** (lxsession:987): WARNING **: 10:31:22.984: utils.vala:70: 그런 파일이나 디렉터리가 없습니다
+** (lxsession:944): WARNING **: 09:34:30.371: utils.vala:70: 그런 파일이나 디렉터리가 없습니다
 xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
 xprop:  no such property "_NET_DESKTOP_NAMES"
-** Message: 10:31:23.013: app.vala:721: polkit separate
-** Message: 10:31:23.014: app.vala:721: polkit separate
-** Message: 10:31:23.024: app.vala:76: Launching lxpolkit 
-** Message: 10:31:23.025: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 10:31:23.025: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/autostart
-** Message: 10:31:23.025: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/autostart
-** Message: 10:31:23.025: autostart.vala:42: Autostart path : /etc/xdg/lxsession/LXDE-pi/autostart
-** Message: 10:31:23.042: app.vala:76: Launching lxpanel 
-** Message: 10:31:23.055: app.vala:76: Launching pcmanfm 
+** Message: 09:34:30.413: app.vala:721: polkit separate
+** Message: 09:34:30.413: app.vala:721: polkit separate
+** Message: 09:34:30.422: app.vala:76: Launching lxpolkit 
+** Message: 09:34:30.422: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 09:34:30.422: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 09:34:30.422: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 09:34:30.422: autostart.vala:42: Autostart path : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 09:34:30.435: app.vala:76: Launching lxpanel 
+** Message: 09:34:30.448: app.vala:76: Launching pcmanfm 
 
-** (lxsession:987): WARNING **: 10:31:23.077: app.vala:86: 하위 프로세스 “xscreensaver”을(를) 실행하기 실패 (그런 파일이나 디렉터리가 없습니다)
+** (lxsession:944): WARNING **: 09:34:30.463: app.vala:86: 하위 프로세스 “xscreensaver”을(를) 실행하기 실패 (그런 파일이나 디렉터리가 없습니다)
 
-** (lxsession:987): WARNING **: 10:31:23.077: app.vala:87: Error when launching xscreensaver
-** Message: 10:31:23.088: options.vala:107: Create build-in Clipboard
-** Message: 10:31:23.090: main.vala:441: Check keymap_mode (null)
-** Message: 10:31:23.096: app.vala:76: Launching /usr/bin/ssh-agent 
-SSH_AUTH_SOCK=/tmp/ssh-Sl02JcHM5bS2/agent.1131; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=1133; export SSH_AGENT_PID;
-echo Agent pid 1133;
-** Message: 10:31:23.281: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
-** Message: 10:31:23.367: x-terminal-emulator has very limited support, consider choose another terminal
-** Message: 10:31:23.368: x-terminal-emulator has very limited support, consider choose another terminal
+** (lxsession:944): WARNING **: 09:34:30.463: app.vala:87: Error when launching xscreensaver
+** Message: 09:34:30.471: options.vala:107: Create build-in Clipboard
+** Message: 09:34:30.473: main.vala:441: Check keymap_mode (null)
+** Message: 09:34:30.482: app.vala:76: Launching /usr/bin/ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-ndBZpyg8Gj8t/agent.1083; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=1086; export SSH_AGENT_PID;
+echo Agent pid 1086;
+** Message: 09:34:30.658: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+** Message: 09:34:30.730: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: 09:34:30.737: x-terminal-emulator has very limited support, consider choose another terminal
 grep: /home/pi/.config/lxpanel/LXDE-pi/panels/*: 그런 파일이나 디렉터리가 없습니다
 Openbox-Message: Requested key "XF86AudioRaiseVolume" does not exist on the display
 Openbox-Message: Requested key "XF86AudioLowerVolume" does not exist on the display
@@ -130,53 +130,594 @@ Obt-Message: Failed to open an Input Method
 Openbox-Message: Requested key "XF86AudioRaiseVolume" does not exist on the display
 Openbox-Message: Requested key "XF86AudioLowerVolume" does not exist on the display
 Openbox-Message: Requested key "XF86AudioMute" does not exist on the display
-Obt-Message: Failed to open an Input Method
 Openbox-Message: Requested key "XF86AudioRaiseVolume" does not exist on the display
 Openbox-Message: Requested key "XF86AudioLowerVolume" does not exist on the display
 Openbox-Message: Requested key "XF86AudioMute" does not exist on the display
 Openbox-Message: Requested key "XF86AudioRaiseVolume" does not exist on the display
 Openbox-Message: Requested key "XF86AudioLowerVolume" does not exist on the display
 Openbox-Message: Requested key "XF86AudioMute" does not exist on the display
-** Message: 10:31:25.041: Connecting ...
-** Message: 10:31:25.042: Status changed to down
+** Message: 09:34:32.411: Connecting ...
+** Message: 09:34:32.411: Status changed to down
 Unit pt-device-manager.service could not be found.
 
-** (lxpanel:1127): WARNING **: 10:31:25.259: Battery 0 not found
-** Message: 10:31:26.044: Status changed to opened
-** Message: 10:31:26.044: Connected to dhcpcd-8.1.2
-** Message: 10:31:26.045: Status changed to connected
-** Message: 10:31:26.045: eth0: Link is down
-** Message: 10:31:26.046: wlan0: Associated with IoT_5GHz_2
-** Message: 10:31:26.046: wlan0: Configured 192.168.1.208/24
-** Message: 10:31:26.047: wlan0: WPA status connected
-** Message: 10:31:26.047: wlan0: Received scan results
-** Message: 10:32:29.015: wlan0: Received scan results
-** Message: 10:33:29.028: wlan0: Received scan results
-** Message: 10:34:29.034: wlan0: Received scan results
-** Message: 10:35:29.070: wlan0: Received scan results
-** Message: 10:36:29.039: wlan0: Received scan results
-** Message: 10:37:28.993: wlan0: Received scan results
-** Message: 10:38:29.050: wlan0: Received scan results
-** Message: 10:39:29.005: wlan0: Received scan results
-** Message: 10:40:29.007: wlan0: Received scan results
-** Message: 10:41:29.017: wlan0: Received scan results
-
-(lxterminal:1476): Gdk-WARNING **: 10:42:12.917: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
-
-(lxterminal:1476): Gdk-WARNING **: 10:42:12.918: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
-
-(lxterminal:1476): Gdk-WARNING **: 10:42:12.922: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
-
-(lxterminal:1476): Gdk-WARNING **: 10:42:12.922: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
-** Message: 10:42:29.022: wlan0: Received scan results
-** Message: 10:43:29.031: wlan0: Received scan results
-** Message: 10:44:29.033: wlan0: Received scan results
-
-(lxterminal:1476): Gdk-WARNING **: 10:44:59.776: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
-
-(lxterminal:1476): Gdk-WARNING **: 10:44:59.776: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
-
-(lxterminal:1476): Gdk-WARNING **: 10:44:59.776: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
-
-(lxterminal:1476): Gdk-WARNING **: 10:44:59.776: Event with type 8 not holding a GdkDevice. It is most likely synthesized outside Gdk/GTK+
-** Message: 10:45:29.066: wlan0: Received scan results
+** (lxpanel:1078): WARNING **: 09:34:32.632: Battery 0 not found
+** Message: 09:34:33.414: Status changed to opened
+** Message: 09:34:33.414: Connected to dhcpcd-8.1.2
+** Message: 09:34:33.415: Status changed to connected
+** Message: 09:34:33.415: eth0: Link is down
+** Message: 09:34:33.415: wlan0: Associated with IoT_5GHz_2
+** Message: 09:34:33.415: wlan0: Configured 192.168.1.208/24
+** Message: 09:34:33.416: wlan0: WPA status connected
+** Message: 09:34:33.416: wlan0: Received scan results
+INFO    thonny: Thonny version: 3.3.10
+** Message: 09:35:36.385: wlan0: Received scan results
+** Message: 09:36:36.391: wlan0: Received scan results
+** Message: 09:37:36.391: wlan0: Received scan results
+** Message: 09:38:36.401: wlan0: Received scan results
+** Message: 09:39:36.409: wlan0: Received scan results
+** Message: 09:40:36.359: wlan0: Received scan results
+** Message: 09:41:36.368: wlan0: Received scan results
+** Message: 09:42:36.373: wlan0: Received scan results
+** Message: 09:43:36.383: wlan0: Received scan results
+** Message: 09:44:36.386: wlan0: Received scan results
+** Message: 09:45:36.397: wlan0: Received scan results
+** Message: 09:46:36.401: wlan0: Received scan results
+** Message: 09:47:36.411: wlan0: Received scan results
+** Message: 09:48:36.412: wlan0: Received scan results
+** Message: 09:49:36.426: wlan0: Received scan results
+** Message: 09:50:36.376: wlan0: Received scan results
+** Message: 09:51:36.381: wlan0: Received scan results
+** Message: 09:52:36.391: wlan0: Received scan results
+** Message: 09:53:36.393: wlan0: Received scan results
+** Message: 09:54:36.403: wlan0: Received scan results
+** Message: 09:55:36.404: wlan0: Received scan results
+** Message: 09:56:36.410: wlan0: Received scan results
+** Message: 09:57:36.416: wlan0: Received scan results
+** Message: 09:58:36.423: wlan0: Received scan results
+** Message: 09:59:36.378: wlan0: Received scan results
+** Message: 10:00:36.380: wlan0: Received scan results
+** Message: 10:01:36.394: wlan0: Received scan results
+** Message: 10:02:36.392: wlan0: Received scan results
+** Message: 10:03:36.404: wlan0: Received scan results
+** Message: 10:04:36.407: wlan0: Received scan results
+** Message: 10:05:36.414: wlan0: Received scan results
+** Message: 10:06:36.422: wlan0: Received scan results
+** Message: 10:07:36.431: wlan0: Received scan results
+** Message: 10:08:36.383: wlan0: Received scan results
+** Message: 10:09:36.381: wlan0: Received scan results
+** Message: 10:10:36.390: wlan0: Received scan results
+** Message: 10:11:36.443: wlan0: Received scan results
+** Message: 10:12:36.399: wlan0: Received scan results
+** Message: 10:13:36.399: wlan0: Received scan results
+** Message: 10:14:36.412: wlan0: Received scan results
+** Message: 10:15:36.411: wlan0: Received scan results
+** Message: 10:16:36.423: wlan0: Received scan results
+** Message: 10:17:36.418: wlan0: Received scan results
+** Message: 10:18:36.429: wlan0: Received scan results
+** Message: 10:19:36.432: wlan0: Received scan results
+** Message: 10:20:36.441: wlan0: Received scan results
+** Message: 10:21:36.395: wlan0: Received scan results
+** Message: 10:22:36.401: wlan0: Received scan results
+** Message: 10:23:36.407: wlan0: Received scan results
+** Message: 10:24:36.413: wlan0: Received scan results
+** Message: 10:25:36.417: wlan0: Received scan results
+** Message: 10:26:36.422: wlan0: Received scan results
+** Message: 10:27:36.432: wlan0: Received scan results
+** Message: 10:28:36.431: wlan0: Received scan results
+** Message: 10:29:36.440: wlan0: Received scan results
+** Message: 10:30:36.442: wlan0: Received scan results
+** Message: 10:31:36.453: wlan0: Received scan results
+** Message: 10:32:36.409: wlan0: Received scan results
+** Message: 10:33:36.407: wlan0: Received scan results
+** Message: 10:34:36.419: wlan0: Received scan results
+** Message: 10:35:36.422: wlan0: Received scan results
+** Message: 10:36:36.426: wlan0: Received scan results
+** Message: 10:37:36.490: wlan0: Received scan results
+** Message: 10:38:36.441: wlan0: Received scan results
+** Message: 10:39:36.442: wlan0: Received scan results
+** Message: 10:40:36.455: wlan0: Received scan results
+** Message: 10:41:36.457: wlan0: Received scan results
+** Message: 10:42:36.411: wlan0: Received scan results
+** Message: 10:43:36.417: wlan0: Received scan results
+** Message: 10:44:36.420: wlan0: Received scan results
+** Message: 10:45:36.427: wlan0: Received scan results
+** Message: 10:46:36.430: wlan0: Received scan results
+** Message: 10:47:36.444: wlan0: Received scan results
+** Message: 10:48:36.446: wlan0: Received scan results
+** Message: 10:49:36.454: wlan0: Received scan results
+** Message: 10:50:36.456: wlan0: Received scan results
+** Message: 10:51:36.467: wlan0: Received scan results
+** Message: 10:52:36.426: wlan0: Received scan results
+** Message: 10:53:36.426: wlan0: Received scan results
+** Message: 10:54:36.434: wlan0: Received scan results
+** Message: 10:55:36.438: wlan0: Received scan results
+** Message: 10:56:36.443: wlan0: Received scan results
+** Message: 10:57:36.445: wlan0: Received scan results
+** Message: 10:58:36.456: wlan0: Received scan results
+** Message: 10:59:36.455: wlan0: Received scan results
+** Message: 11:00:36.467: wlan0: Received scan results
+** Message: 11:01:36.473: wlan0: Received scan results
+** Message: 11:02:36.479: wlan0: Received scan results
+** Message: 11:03:36.510: wlan0: Received scan results
+** Message: 11:04:36.438: wlan0: Received scan results
+** Message: 11:05:36.447: wlan0: Received scan results
+** Message: 11:06:36.448: wlan0: Received scan results
+** Message: 11:07:36.457: wlan0: Received scan results
+** Message: 11:08:36.463: wlan0: Received scan results
+** Message: 11:09:36.468: wlan0: Received scan results
+** Message: 11:10:36.475: wlan0: Received scan results
+** Message: 11:11:36.480: wlan0: Received scan results
+** Message: 11:12:36.485: wlan0: Received scan results
+** Message: 11:13:36.493: wlan0: Received scan results
+** Message: 11:14:36.446: wlan0: Received scan results
+** Message: 11:15:36.449: wlan0: Received scan results
+** Message: 11:16:36.459: wlan0: Received scan results
+INFO    thonny: Thonny version: 3.3.10
+Delegated to an existing Thonny instance. Exiting now.
+** Message: 11:17:36.461: wlan0: Received scan results
+** Message: 11:18:36.463: wlan0: Received scan results
+** Message: 11:19:36.466: wlan0: Received scan results
+** Message: 11:20:36.475: wlan0: Received scan results
+** Message: 11:21:36.478: wlan0: Received scan results
+** Message: 11:22:36.477: wlan0: Received scan results
+** Message: 11:23:36.485: wlan0: Received scan results
+** Message: 11:24:36.492: wlan0: Received scan results
+** Message: 11:25:36.496: wlan0: Received scan results
+** Message: 11:26:36.503: wlan0: Received scan results
+** Message: 11:27:36.455: wlan0: Received scan results
+** Message: 11:28:36.457: wlan0: Received scan results
+** Message: 11:29:36.466: wlan0: Received scan results
+** Message: 11:30:36.469: wlan0: Received scan results
+** Message: 11:31:36.474: wlan0: Received scan results
+** Message: 11:32:36.476: wlan0: Received scan results
+** Message: 11:33:36.486: wlan0: Received scan results
+** Message: 11:34:36.488: wlan0: Received scan results
+** Message: 11:35:36.496: wlan0: Received scan results
+** Message: 11:36:36.501: wlan0: Received scan results
+** Message: 11:37:36.507: wlan0: Received scan results
+** Message: 11:38:36.460: wlan0: Received scan results
+** Message: 11:39:36.458: wlan0: Received scan results
+** Message: 11:40:36.471: wlan0: Received scan results
+** Message: 11:41:36.472: wlan0: Received scan results
+** Message: 11:42:36.483: wlan0: Received scan results
+** Message: 11:43:36.489: wlan0: Received scan results
+** Message: 11:44:36.494: wlan0: Received scan results
+** Message: 11:45:36.496: wlan0: Received scan results
+** Message: 11:46:36.505: wlan0: Received scan results
+** Message: 11:47:36.508: wlan0: Received scan results
+** Message: 11:48:36.514: wlan0: Received scan results
+** Message: 11:49:36.466: wlan0: Received scan results
+** Message: 11:50:36.475: wlan0: Received scan results
+** Message: 11:51:36.481: wlan0: Received scan results
+** Message: 11:52:36.486: wlan0: Received scan results
+** Message: 11:53:36.496: wlan0: Received scan results
+** Message: 11:54:36.494: wlan0: Received scan results
+** Message: 11:55:36.544: wlan0: Received scan results
+** Message: 11:56:36.509: wlan0: Received scan results
+** Message: 11:57:36.514: wlan0: Received scan results
+** Message: 11:58:36.518: wlan0: Received scan results
+** Message: 11:59:36.532: wlan0: Received scan results
+** Message: 12:00:36.486: wlan0: Received scan results
+** Message: 12:01:36.485: wlan0: Received scan results
+** Message: 12:02:36.498: wlan0: Received scan results
+** Message: 12:03:36.498: wlan0: Received scan results
+** Message: 12:04:36.508: wlan0: Received scan results
+** Message: 12:05:36.510: wlan0: Received scan results
+** Message: 12:06:36.476: wlan0: Received scan results
+** Message: 12:07:36.517: wlan0: Received scan results
+** Message: 12:08:36.527: wlan0: Received scan results
+** Message: 12:09:36.489: wlan0: Received scan results
+** Message: 12:10:36.539: wlan0: Received scan results
+[3573:1208/121130.985370:ERROR:viz_main_impl.cc(160)] Exiting GPU process due to errors during initialization
+[90m[main 2021-12-08T03:11:31.204Z][0m update#setState idle
+[3601:1208/121131.298741:ERROR:gpu_init.cc(440)] Passthrough is not supported, GL is swiftshader
+** Message: 12:11:36.491: wlan0: Received scan results
+** Message: 12:11:42.099: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 12:11:44.314: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+[90m[main 2021-12-08T03:12:01.218Z][0m update#setState checking for updates
+[90m[main 2021-12-08T03:12:01.356Z][0m update#setState idle
+** Message: 12:12:36.495: wlan0: Received scan results
+** Message: 12:13:36.499: wlan0: Received scan results
+** Message: 12:14:36.509: wlan0: Received scan results
+** Message: 12:15:36.516: wlan0: Received scan results
+** Message: 12:16:36.482: wlan0: Received scan results
+** Message: 12:17:36.530: wlan0: Received scan results
+** Message: 12:18:36.531: wlan0: Received scan results
+** Message: 12:19:36.540: wlan0: Received scan results
+** Message: 12:20:36.546: wlan0: Received scan results
+** Message: 12:21:36.551: wlan0: Received scan results
+** Message: 12:21:36.841: wlan0: Disassociated from IoT_5GHz_2
+** Message: 12:21:36.851: Status changed to disconnected
+** Message: 12:21:39.561: wlan0: Associated with IoT_5GHz_1
+** Message: 12:21:39.570: Status changed to connecting
+** Message: 12:21:45.009: wlan0: Configured 192.168.1.208/24
+** Message: 12:21:45.010: Status changed to connected
+** Message: 12:22:36.499: wlan0: Received scan results
+** Message: 12:22:36.764: wlan0: Disassociated from IoT_5GHz_1
+** Message: 12:22:36.774: Status changed to disconnected
+** Message: 12:22:39.349: wlan0: Associated with IoT_5GHz_2
+** Message: 12:22:39.363: Status changed to connecting
+** Message: 12:22:44.252: wlan0: Configured 192.168.1.208/24
+** Message: 12:22:44.252: Status changed to connected
+** Message: 12:23:36.506: wlan0: Received scan results
+** Message: 12:24:36.514: wlan0: Received scan results
+** Message: 12:25:36.518: wlan0: Received scan results
+** Message: 12:26:36.489: wlan0: Received scan results
+** Message: 12:27:36.531: wlan0: Received scan results
+** Message: 12:28:36.538: wlan0: Received scan results
+** Message: 12:29:36.541: wlan0: Received scan results
+** Message: 12:30:36.513: wlan0: Received scan results
+** Message: 12:31:36.550: wlan0: Received scan results
+** Message: 12:32:36.561: wlan0: Received scan results
+../../sandbox/linux/seccomp-bpf-helpers/sigsys_handlers.cc:**CRASHING**:seccomp-bpf failure in syscall 0279
+[3534:1208/123242.342585:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=11
+/dev/fd/3: 그런 파일이나 디렉터리가 없습니다
+Server response: 
+[4450:1208/123242.438225:ERROR:gpu_init.cc(440)] Passthrough is not supported, GL is swiftshader
+** Message: 12:33:36.509: wlan0: Received scan results
+** Message: 12:34:36.482: wlan0: Received scan results
+libEGL warning: DRI2: failed to authenticate
+[4808:4808:1208/123445.496230:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is egl
+[4808:4808:1208/123445.723011:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[4754:4754:1208/123445.871301:ERROR:component_loader.cc(186)] Failed to parse extension manifest.
+[4842:4842:1208/123445.906587:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is swiftshader
+[4754:4940:1208/123447.451892:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[4754:4940:1208/123447.456016:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[4754:4940:1208/123447.456781:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+Fontconfig error: Cannot load default config file: No such file: (null)
+** Message: 12:34:58.367: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+[93m[main 2021-12-08T03:34:58.371Z][0m Error attempting to set a password:  [Error: The name org.freedesktop.secrets was not provided by any .service files]
+** Message: 12:34:58.614: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+[93m[main 2021-12-08T03:34:58.624Z][0m Error attempting to set a password:  [Error: The name org.freedesktop.secrets was not provided by any .service files]
+** Message: 12:34:58.849: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+[93m[main 2021-12-08T03:34:58.862Z][0m Error attempting to set a password:  [Error: The name org.freedesktop.secrets was not provided by any .service files]
+** Message: 12:35:36.583: wlan0: Received scan results
+libEGL warning: DRI2: failed to authenticate
+[5498:5498:1208/123547.204726:ERROR:component_loader.cc(186)] Failed to parse extension manifest.
+[5577:5577:1208/123547.650249:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is egl
+[5577:5577:1208/123547.783800:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[5654:5654:1208/123548.007076:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is swiftshader
+[5498:5689:1208/123548.102917:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[5498:5689:1208/123548.104295:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[5498:5689:1208/123548.105289:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[5626:8:1208/123548.258405:ERROR:command_buffer_proxy_impl.cc(126)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+Fontconfig error: Cannot load default config file: No such file: (null)
+** Message: 12:36:36.528: wlan0: Received scan results
+** Message: 12:37:36.534: wlan0: Received scan results
+** Message: 12:37:47.179: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 12:37:47.812: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 12:38:13.931: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 12:38:15.064: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 12:38:36.535: wlan0: Received scan results
+** Message: 12:39:36.547: wlan0: Received scan results
+** Message: 12:40:36.548: wlan0: Received scan results
+** Message: 12:41:36.563: wlan0: Received scan results
+** Message: 12:42:36.561: wlan0: Received scan results
+** Message: 12:43:36.511: wlan0: Received scan results
+** Message: 12:44:36.521: wlan0: Received scan results
+** Message: 12:45:36.527: wlan0: Received scan results
+** Message: 12:46:36.537: wlan0: Received scan results
+** Message: 12:47:36.510: wlan0: Received scan results
+** Message: 12:48:36.546: wlan0: Received scan results
+** Message: 12:49:36.549: wlan0: Received scan results
+** Message: 12:50:36.557: wlan0: Received scan results
+** Message: 12:51:36.559: wlan0: Received scan results
+** Message: 12:51:36.798: wlan0: Disassociated from IoT_5GHz_2
+** Message: 12:51:36.804: Status changed to disconnected
+** Message: 12:51:39.571: wlan0: Associated with IoT_5GHz_1
+** Message: 12:51:39.584: Status changed to connecting
+** Message: 12:51:45.170: wlan0: Configured 192.168.1.208/24
+** Message: 12:51:45.171: Status changed to connected
+** Message: 12:52:36.572: wlan0: Received scan results
+** Message: 12:52:36.819: wlan0: Disassociated from IoT_5GHz_1
+** Message: 12:52:36.826: Status changed to disconnected
+** Message: 12:52:39.631: wlan0: Associated with IoT_5GHz_2
+** Message: 12:52:39.644: Status changed to connecting
+** Message: 12:52:44.771: wlan0: Configured 192.168.1.208/24
+** Message: 12:52:44.772: Status changed to connected
+** Message: 12:53:36.570: wlan0: Received scan results
+** Message: 12:54:36.578: wlan0: Received scan results
+** Message: 12:55:36.534: wlan0: Received scan results
+** Message: 12:56:36.537: wlan0: Received scan results
+** Message: 12:57:36.546: wlan0: Received scan results
+** Message: 12:58:36.545: wlan0: Received scan results
+** Message: 12:59:36.555: wlan0: Received scan results
+** Message: 13:00:36.560: wlan0: Received scan results
+** Message: 13:01:36.570: wlan0: Received scan results
+** Message: 13:02:36.569: wlan0: Received scan results
+** Message: 13:03:36.579: wlan0: Received scan results
+** Message: 13:04:36.588: wlan0: Received scan results
+** Message: 13:05:36.590: wlan0: Received scan results
+** Message: 13:06:36.543: wlan0: Received scan results
+** Message: 13:07:36.548: wlan0: Received scan results
+** Message: 13:08:36.558: wlan0: Received scan results
+** Message: 13:09:36.561: wlan0: Received scan results
+** Message: 13:10:36.569: wlan0: Received scan results
+** Message: 13:11:36.571: wlan0: Received scan results
+[90m[main 2021-12-08T04:12:01.245Z][0m update#setState checking for updates
+[90m[main 2021-12-08T04:12:01.888Z][0m update#setState idle
+** Message: 13:12:36.580: wlan0: Received scan results
+** Message: 13:13:36.583: wlan0: Received scan results
+** Message: 13:14:36.592: wlan0: Received scan results
+** Message: 13:15:36.596: wlan0: Received scan results
+** Message: 13:16:36.548: wlan0: Received scan results
+** Message: 13:17:36.556: wlan0: Received scan results
+** Message: 13:18:36.558: wlan0: Received scan results
+** Message: 13:19:36.567: wlan0: Received scan results
+** Message: 13:20:36.573: wlan0: Received scan results
+** Message: 13:21:36.578: wlan0: Received scan results
+** Message: 13:22:36.583: wlan0: Received scan results
+** Message: 13:23:36.590: wlan0: Received scan results
+** Message: 13:24:36.592: wlan0: Received scan results
+** Message: 13:25:36.598: wlan0: Received scan results
+** Message: 13:26:36.556: wlan0: Received scan results
+** Message: 13:27:36.561: wlan0: Received scan results
+** Message: 13:28:36.565: wlan0: Received scan results
+** Message: 13:29:36.573: wlan0: Received scan results
+** Message: 13:30:36.578: wlan0: Received scan results
+** Message: 13:31:36.584: wlan0: Received scan results
+** Message: 13:32:36.593: wlan0: Received scan results
+** Message: 13:33:36.598: wlan0: Received scan results
+** Message: 13:34:36.603: wlan0: Received scan results
+** Message: 13:35:36.603: wlan0: Received scan results
+** Message: 13:36:36.613: wlan0: Received scan results
+** Message: 13:37:36.616: wlan0: Received scan results
+** Message: 13:38:36.569: wlan0: Received scan results
+** Message: 13:39:36.581: wlan0: Received scan results
+** Message: 13:40:36.584: wlan0: Received scan results
+** Message: 13:41:36.589: wlan0: Received scan results
+** Message: 13:42:36.596: wlan0: Received scan results
+** Message: 13:43:36.606: wlan0: Received scan results
+** Message: 13:44:36.605: wlan0: Received scan results
+** Message: 13:45:36.618: wlan0: Received scan results
+** Message: 13:46:36.619: wlan0: Received scan results
+** Message: 13:47:36.631: wlan0: Received scan results
+** Message: 13:48:36.627: wlan0: Received scan results
+** Message: 13:49:36.638: wlan0: Received scan results
+** Message: 13:50:36.592: wlan0: Received scan results
+** Message: 13:51:36.594: wlan0: Received scan results
+** Message: 13:52:36.601: wlan0: Received scan results
+** Message: 13:53:36.663: wlan0: Received scan results
+** Message: 13:54:36.617: wlan0: Received scan results
+** Message: 13:55:36.619: wlan0: Received scan results
+** Message: 13:56:36.622: wlan0: Received scan results
+** Message: 13:57:36.628: wlan0: Received scan results
+** Message: 13:58:36.635: wlan0: Received scan results
+** Message: 13:59:36.596: wlan0: Received scan results
+** Message: 14:00:36.595: wlan0: Received scan results
+** Message: 14:01:36.604: wlan0: Received scan results
+** Message: 14:02:36.603: wlan0: Received scan results
+** Message: 14:03:36.615: wlan0: Received scan results
+** Message: 14:04:36.616: wlan0: Received scan results
+** Message: 14:05:36.628: wlan0: Received scan results
+** Message: 14:06:36.629: wlan0: Received scan results
+** Message: 14:07:36.636: wlan0: Received scan results
+** Message: 14:08:36.640: wlan0: Received scan results
+** Message: 14:09:36.649: wlan0: Received scan results
+** Message: 14:10:36.603: wlan0: Received scan results
+** Message: 14:10:36.827: wlan0: Disassociated from IoT_5GHz_2
+** Message: 14:10:36.833: Status changed to disconnected
+** Message: 14:10:39.541: wlan0: Associated with IoT_5GHz_1
+** Message: 14:10:39.551: Status changed to connecting
+** Message: 14:10:44.945: wlan0: Configured 192.168.1.208/24
+** Message: 14:10:44.945: Status changed to connected
+** Message: 14:11:36.599: wlan0: Received scan results
+** Message: 14:11:36.883: wlan0: Disassociated from IoT_5GHz_1
+** Message: 14:11:36.896: Status changed to disconnected
+** Message: 14:11:39.513: wlan0: Associated with IoT_5GHz_2
+** Message: 14:11:39.528: Status changed to connecting
+** Message: 14:11:45.009: wlan0: Configured 192.168.1.208/24
+** Message: 14:11:45.009: Status changed to connected
+[90m[main 2021-12-08T05:12:01.311Z][0m update#setState checking for updates
+[90m[main 2021-12-08T05:12:01.959Z][0m update#setState idle
+** Message: 14:12:36.615: wlan0: Received scan results
+** Message: 14:13:36.618: wlan0: Received scan results
+** Message: 14:14:36.624: wlan0: Received scan results
+** Message: 14:15:36.622: wlan0: Received scan results
+** Message: 14:16:36.635: wlan0: Received scan results
+** Message: 14:17:36.636: wlan0: Received scan results
+** Message: 14:18:36.648: wlan0: Received scan results
+** Message: 14:19:36.651: wlan0: Received scan results
+** Message: 14:20:36.655: wlan0: Received scan results
+** Message: 14:21:36.612: wlan0: Received scan results
+** Message: 14:22:36.665: wlan0: Received scan results
+** Message: 14:23:36.624: wlan0: Received scan results
+** Message: 14:24:36.627: wlan0: Received scan results
+** Message: 14:25:36.638: wlan0: Received scan results
+** Message: 14:26:36.636: wlan0: Received scan results
+** Message: 14:27:36.643: wlan0: Received scan results
+** Message: 14:28:36.650: wlan0: Received scan results
+** Message: 14:29:36.658: wlan0: Received scan results
+** Message: 14:30:36.661: wlan0: Received scan results
+** Message: 14:31:36.668: wlan0: Received scan results
+** Message: 14:32:36.671: wlan0: Received scan results
+** Message: 14:33:36.629: wlan0: Received scan results
+** Message: 14:34:36.635: wlan0: Received scan results
+** Message: 14:35:36.639: wlan0: Received scan results
+** Message: 14:36:36.649: wlan0: Received scan results
+** Message: 14:37:36.648: wlan0: Received scan results
+** Message: 14:38:36.658: wlan0: Received scan results
+** Message: 14:39:36.660: wlan0: Received scan results
+** Message: 14:40:36.675: wlan0: Received scan results
+** Message: 14:41:36.671: wlan0: Received scan results
+** Message: 14:42:36.681: wlan0: Received scan results
+** Message: 14:43:36.681: wlan0: Received scan results
+** Message: 14:44:36.696: wlan0: Received scan results
+** Message: 14:45:36.647: wlan0: Received scan results
+** Message: 14:46:36.651: wlan0: Received scan results
+** Message: 14:47:36.658: wlan0: Received scan results
+** Message: 14:48:36.669: wlan0: Received scan results
+** Message: 14:49:36.677: wlan0: Received scan results
+** Message: 14:50:36.668: wlan0: Received scan results
+** Message: 14:51:36.685: wlan0: Received scan results
+** Message: 14:52:36.688: wlan0: Received scan results
+** Message: 14:53:36.643: wlan0: Received scan results
+** Message: 14:54:36.694: wlan0: Received scan results
+** Message: 14:55:36.651: wlan0: Received scan results
+** Message: 14:56:36.665: wlan0: Received scan results
+** Message: 14:57:36.660: wlan0: Received scan results
+** Message: 14:58:36.674: wlan0: Received scan results
+** Message: 14:59:36.675: wlan0: Received scan results
+** Message: 15:00:36.683: wlan0: Received scan results
+** Message: 15:01:36.684: wlan0: Received scan results
+** Message: 15:01:36.899: wlan0: Disassociated from IoT_5GHz_2
+** Message: 15:01:36.906: Status changed to disconnected
+** Message: 15:01:42.288: wlan0: Received scan results
+** Message: 15:01:45.202: wlan0: Associated with IoT_5GHz_2
+** Message: 15:01:45.217: Status changed to connecting
+** Message: 15:01:49.906: wlan0: Configured 192.168.1.208/24
+** Message: 15:01:49.906: Status changed to connected
+** Message: 15:02:36.692: wlan0: Received scan results
+** Message: 15:03:36.696: wlan0: Received scan results
+** Message: 15:04:36.704: wlan0: Received scan results
+** Message: 15:05:36.660: wlan0: Received scan results
+** Message: 15:06:36.663: wlan0: Received scan results
+** Message: 15:07:36.672: wlan0: Received scan results
+** Message: 15:08:36.676: wlan0: Received scan results
+** Message: 15:09:36.683: wlan0: Received scan results
+** Message: 15:10:36.686: wlan0: Received scan results
+** Message: 15:11:36.696: wlan0: Received scan results
+[90m[main 2021-12-08T06:12:01.415Z][0m update#setState checking for updates
+[90m[main 2021-12-08T06:12:01.825Z][0m update#setState idle
+** Message: 15:12:36.697: wlan0: Received scan results
+** Message: 15:13:36.701: wlan0: Received scan results
+** Message: 15:14:36.656: wlan0: Received scan results
+** Message: 15:15:36.663: wlan0: Received scan results
+** Message: 15:16:36.667: wlan0: Received scan results
+** Message: 15:17:36.675: wlan0: Received scan results
+** Message: 15:18:36.677: wlan0: Received scan results
+** Message: 15:19:36.685: wlan0: Received scan results
+** Message: 15:20:36.696: wlan0: Received scan results
+** Message: 15:21:36.742: wlan0: Received scan results
+** Message: 15:22:36.701: wlan0: Received scan results
+** Message: 15:23:36.707: wlan0: Received scan results
+** Message: 15:23:36.939: wlan0: Disassociated from IoT_5GHz_2
+** Message: 15:23:36.946: Status changed to disconnected
+** Message: 15:23:42.306: wlan0: Received scan results
+** Message: 15:23:45.191: wlan0: Associated with IoT_5GHz_1
+** Message: 15:23:45.203: Status changed to connecting
+** Message: 15:23:50.677: wlan0: Configured 192.168.1.208/24
+** Message: 15:23:50.678: Status changed to connected
+** Message: 15:24:36.714: wlan0: Received scan results
+** Message: 15:24:36.879: wlan0: Disassociated from IoT_5GHz_1
+** Message: 15:24:36.887: Status changed to disconnected
+** Message: 15:24:39.636: wlan0: Associated with IoT_5GHz_2
+** Message: 15:24:39.655: Status changed to connecting
+** Message: 15:24:44.959: wlan0: Configured 192.168.1.208/24
+** Message: 15:24:44.960: Status changed to connected
+** Message: 15:25:36.667: wlan0: Received scan results
+** Message: 15:26:36.727: wlan0: Received scan results
+** Message: 15:27:36.680: wlan0: Received scan results
+** Message: 15:28:36.684: wlan0: Received scan results
+** Message: 15:28:36.928: wlan0: Disassociated from IoT_5GHz_2
+** Message: 15:28:36.936: Status changed to disconnected
+** Message: 15:28:39.653: wlan0: Associated with IoT_5GHz_1
+** Message: 15:28:39.670: Status changed to connecting
+** Message: 15:28:45.643: wlan0: Configured 192.168.1.208/24
+** Message: 15:28:45.643: Status changed to connected
+** Message: 15:29:36.685: wlan0: Received scan results
+** Message: 15:30:36.690: wlan0: Received scan results
+** Message: 15:30:36.894: wlan0: Disassociated from IoT_5GHz_1
+** Message: 15:30:36.902: Status changed to disconnected
+** Message: 15:30:39.721: wlan0: Associated with IoT_5GHz_2
+** Message: 15:30:39.736: Status changed to connecting
+** Message: 15:30:45.032: wlan0: Configured 192.168.1.208/24
+** Message: 15:30:45.032: Status changed to connected
+** Message: 15:31:36.702: wlan0: Received scan results
+** Message: 15:32:36.706: wlan0: Received scan results
+** Message: 15:33:36.713: wlan0: Received scan results
+** Message: 15:33:57.046: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 15:33:57.440: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 15:34:30.122: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+[4450:1208/153430.637090:ERROR:x11_software_bitmap_presenter.cc(134)] XGetWindowAttributes failed for window 25165905
+../../sandbox/linux/seccomp-bpf-helpers/sigsys_handlers.cc:**CRASHING**:seccomp-bpf failure in syscall 0279
+[3534:1208/153433.019976:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=11
+/dev/fd/3: 그런 파일이나 디렉터리가 없습니다
+Server response: 
+[10110:1208/153433.099325:ERROR:gpu_init.cc(440)] Passthrough is not supported, GL is swiftshader
+** Message: 15:34:36.719: wlan0: Received scan results
+** Message: 15:34:43.828: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 15:35:36.727: wlan0: Received scan results
+** Message: 15:36:36.674: wlan0: Received scan results
+** Message: 15:37:36.678: wlan0: Received scan results
+** Message: 15:38:36.690: wlan0: Received scan results
+** Message: 15:39:36.690: wlan0: Received scan results
+** Message: 15:40:36.706: wlan0: Received scan results
+** Message: 15:41:36.704: wlan0: Received scan results
+** Message: 15:42:36.710: wlan0: Received scan results
+** Message: 15:43:36.714: wlan0: Received scan results
+INFO    thonny: Thonny version: 3.3.10
+INFO    thonny: Thonny version: 3.3.10
+INFO    thonny: Thonny version: 3.3.10
+** Message: 15:44:36.725: wlan0: Received scan results
+INFO    thonny: Thonny version: 3.3.10
+[90m[main 2021-12-08T06:45:15.480Z][0m update#setState idle
+[10738:1208/154515.542439:ERROR:viz_main_impl.cc(160)] Exiting GPU process due to errors during initialization
+[10774:1208/154515.742898:ERROR:gpu_init.cc(440)] Passthrough is not supported, GL is swiftshader
+[10758:1208/154516.073849:ERROR:command_buffer_proxy_impl.cc(123)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
+** Message: 15:45:24.346: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+../../sandbox/linux/seccomp-bpf-helpers/sigsys_handlers.cc:**CRASHING**:seccomp-bpf failure in syscall 0279
+/dev/fd/3: 그런 파일이나 디렉터리가 없습니다
+Server response: 
+[10699:1208/154530.084162:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=11
+[10928:1208/154530.155935:ERROR:gpu_init.cc(440)] Passthrough is not supported, GL is swiftshader
+** Message: 15:45:33.073: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 15:45:36.723: wlan0: Received scan results
+[90m[main 2021-12-08T06:45:45.490Z][0m update#setState checking for updates
+[90m[main 2021-12-08T06:45:45.719Z][0m update#setState idle
+libEGL warning: DRI2: failed to authenticate
+[11077:11077:1208/154549.531279:ERROR:component_loader.cc(186)] Failed to parse extension manifest.
+[11142:11142:1208/154549.891416:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is egl
+[11142:11142:1208/154549.984828:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[11194:11194:1208/154550.285256:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is swiftshader
+[11077:11249:1208/154550.407431:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[11077:11249:1208/154550.408174:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[11077:11249:1208/154550.408828:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+Fontconfig error: Cannot load default config file: No such file: (null)
+** Message: 15:46:36.732: wlan0: Received scan results
+** Message: 15:47:36.737: wlan0: Received scan results
+** Message: 15:48:36.693: wlan0: Received scan results
+** Message: 15:49:36.701: wlan0: Received scan results
+INFO    thonny: Thonny version: 3.3.10
+** Message: 15:50:36.656: wlan0: Received scan results
+기존 브라우저 세션에서 여는 중입니다.
+** Message: 15:51:36.712: wlan0: Received scan results
+** Message: 15:52:36.711: wlan0: Received scan results
+** Message: 15:53:36.726: wlan0: Received scan results
+** Message: 15:54:36.718: wlan0: Received scan results
+** Message: 15:55:36.683: wlan0: Received scan results
+** Message: 15:56:36.733: wlan0: Received scan results
+** Message: 15:57:36.697: wlan0: Received scan results
+** Message: 15:58:36.742: wlan0: Received scan results
+** Message: 15:59:36.751: wlan0: Received scan results
+** Message: 16:00:36.709: wlan0: Received scan results
+** Message: 16:01:36.704: wlan0: Received scan results
+** Message: 16:02:36.716: wlan0: Received scan results
+** Message: 16:03:36.716: wlan0: Received scan results
+libEGL warning: DRI2: failed to authenticate
+[12348:12348:1208/160347.777511:ERROR:component_loader.cc(186)] Failed to parse extension manifest.
+[12416:12416:1208/160348.134879:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is egl
+[12416:12416:1208/160348.242860:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[12464:12464:1208/160348.445044:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is swiftshader
+[12348:12544:1208/160348.703201:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[12348:12544:1208/160348.704772:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[12348:12544:1208/160348.705801:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+Fontconfig error: Cannot load default config file: No such file: (null)
+** Message: 16:04:36.729: wlan0: Received scan results
+** Message: 16:05:36.737: wlan0: Received scan results
+libEGL warning: DRI2: failed to authenticate
+[12938:12938:1208/160633.432892:ERROR:component_loader.cc(186)] Failed to parse extension manifest.
+[12999:12999:1208/160633.971865:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is egl
+[12999:12999:1208/160634.066348:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[13044:13044:1208/160634.369311:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is swiftshader
+[12938:13147:1208/160634.582459:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[12938:13147:1208/160634.596781:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[12938:13147:1208/160634.598264:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+Fontconfig error: Cannot load default config file: No such file: (null)
+** Message: 16:06:36.695: wlan0: Received scan results
+** Message: 16:07:36.743: wlan0: Received scan results
+** Message: 16:08:18.336: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 16:08:19.201: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 16:08:36.751: wlan0: Received scan results
+** Message: 16:08:37.788: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+** Message: 16:08:38.876: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files

@@ -1,0 +1,154 @@
+Validating found git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/pi/classes/iot/ch13/final2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :file.py
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :file.py
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/pi/classes/iot/ch13/final2/file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+> git cat-file -s 95a9d9195b0b132fb338688fb6214b96a7528457
+> git show --textconv :file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git ls-tree -l HEAD -- /home/pi/classes/iot/ch13/final2/file.py
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+fatal: Not a valid object name HEAD
+> git cat-file -s 95a9d9195b0b132fb338688fb6214b96a7528457
+> git check-ignore -v -z --stdin
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/classes/iot/ch13/final2/file.py
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+> git cat-file -s 95a9d9195b0b132fb338688fb6214b96a7528457
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/classes/iot/ch13/final2/file.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/classes/iot/ch13/final2/file.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/classes/iot/ch13/final2/file.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/classes/iot/ch13/final2/file.py
+> git show --textconv :file.py
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+> git cat-file -s 95a9d9195b0b132fb338688fb6214b96a7528457
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/pi/classes/iot/ch13/final2/file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/classes/iot/ch13/final2/file.py
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+> git cat-file -s 16075498f5cb3bff9346e215f0bfebf9bc511e83
+> git cat-file -s 16075498f5cb3bff9346e215f0bfebf9bc511e83
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git show --textconv :file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/classes/iot/ch13/final2/file.py
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+> git cat-file -s 16075498f5cb3bff9346e215f0bfebf9bc511e83
+> git cat-file -s 16075498f5cb3bff9346e215f0bfebf9bc511e83
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git show --textconv :file.py
+> git rev-list --count ba2158be00b78b29ea21918d8be095dd76412f50.. -- /home/pi/classes/iot/ch13/final2/file.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/pi/classes/iot/ch13/final2/file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count ba2158be00b78b29ea21918d8be095dd76412f50.. -- /home/pi/classes/iot/ch13/final2/file.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/pi/classes/iot/ch13/final2/file.py
+> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git push -u origin master
+null
+To https://github.com/kyusung22/git_vscode_test.git
+ * [new branch]      master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/classes/iot/ch13/final2/file.py
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+> git ls-files --stage -- /home/pi/classes/iot/ch13/final2/file.py
+> git cat-file -s 16075498f5cb3bff9346e215f0bfebf9bc511e83
+> git cat-file -s 16075498f5cb3bff9346e215f0bfebf9bc511e83
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git show --textconv :file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

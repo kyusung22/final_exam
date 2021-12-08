@@ -1,0 +1,12 @@
+[2021-12-07 20:28:19.186] [exthost] [info] Extension host with pid 3434 started
+[2021-12-07 20:28:19.187] [exthost] [info] Skipping acquiring lock for /home/pi/.config/Code/User/workspaceStorage/060c90a24a37555fec6f7e1cfa48a9ab.
+[2021-12-07 20:28:19.840] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-07 20:28:19.899] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-07 20:28:19.916] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-07 20:28:21.121] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-07 20:28:21.281] [exthost] [info] Eager extensions activated
+[2021-12-07 20:28:21.426] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-07 20:28:21.456] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-07 20:28:22.892] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3949
+[2021-12-07 20:40:51.547] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-07 20:40:52.571] [exthost] [info] Extension host with pid 3434 exiting with code 0

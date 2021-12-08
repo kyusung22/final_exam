@@ -1,0 +1,125 @@
+git에서 찾은 git 유효성을 검사하는 중
+git에서 git 2.20.1을(를) 사용하는 중
+> git rev-parse --git-dir
+Open repository: /home/pi
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git show --textconv :class/gpio/flask/Gui_Led_Thread.py
+> git ls-files --stage -- /home/pi/class/gpio/flask/Gui_Led_Thread.py
+> git cat-file -s 3712ffab61215652038814df3bb3fc38720d9f59
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/class/gpio/flask/Gui_Led_Thread.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/pi/class/gpio/flask/Gui_Led_Thread.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/class/gpio/HC_SR04.py
+> git show --textconv :class/gpio/HC_SR04.py
+> git ls-files --stage -- /home/pi/class/gpio/HC_SR04.py
+> git cat-file -s 08fc09eafc601b156fa935f9e1ed32ffe12373af
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/class/gpio/flask/finalExam.py
+> git show --textconv :class/gpio/HC_SR04.py
+> git ls-files --stage -- /home/pi/class/gpio/HC_SR04.py
+> git cat-file -s 08fc09eafc601b156fa935f9e1ed32ffe12373af
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :class/gpio/finalExam/finalExam.py
+> git ls-files --stage -- /home/pi/class/gpio/finalExam/finalExam.py
+> git show --textconv :class/gpio/finalExam/templates/index.html
+> git ls-files --stage -- /home/pi/class/gpio/finalExam/templates/index.html
+> git show --textconv :class/gpio/flask/Gui_Led_Thread.py
+> git ls-files --stage -- /home/pi/class/gpio/flask/Gui_Led_Thread.py
+> git cat-file -s 3712ffab61215652038814df3bb3fc38720d9f59
+> git show --textconv :class/gpio/finalExam/templates/index.html
+> git ls-files --stage -- /home/pi/class/gpio/finalExam/templates/index.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :class/gpio/project1/templates/morse.html
+> git ls-files --stage -- /home/pi/class/gpio/project1/templates/morse.html
+> git cat-file -s 33d31cb0b8e1d47ce2cd4f3bdd1ff0e6bef1a3c7
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/class/gpio/flask/Gui_Led_Thread.py
+> git show --textconv :class/gpio/flask/Gui_Led_Thread.py
+> git ls-files --stage -- /home/pi/class/gpio/flask/Gui_Led_Thread.py
+> git cat-file -s 3712ffab61215652038814df3bb3fc38720d9f59
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/class/gpio/finalExam/finalExam.py
+> git show --textconv :class/gpio/finalExam/finalExam.py
+> git ls-files --stage -- /home/pi/class/gpio/finalExam/finalExam.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/class/gpio/finalExam/templates/index.html
+> git show --textconv :class/gpio/finalExam/templates/index.html
+> git ls-files --stage -- /home/pi/class/gpio/finalExam/templates/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/class/gpio/flask/Gui_Led_Thread.py
+> git show --textconv :class/gpio/flask/Gui_Led_Thread.py
+> git ls-files --stage -- /home/pi/class/gpio/flask/Gui_Led_Thread.py
+> git cat-file -s 3712ffab61215652038814df3bb3fc38720d9f59
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git branch
+> git reset -q HEAD -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/pi/class/gpio/finalExam/finalExam.py
+> git ls-files --stage -- /home/pi/class/gpio/flask/Gui_Led_Thread.py
+> git cat-file -s 3712ffab61215652038814df3bb3fc38720d9f59
+> git show --textconv :class/gpio/finalExam/finalExam.py
+> git show --textconv :class/gpio/flask/Gui_Led_Thread.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/class/gpio/finalExam/finalExam.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :class/gpio/finalExam/templates/index.html
+> git ls-files --stage -- /home/pi/class/gpio/finalExam/templates/index.html
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git show --textconv :class/gpio/.vscode/launch.json
+> git ls-files --stage -- /home/pi/class/gpio/.vscode/launch.json
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :class/gpio/finalExam/finalExam.py
+> git ls-files --stage -- /home/pi/class/gpio/finalExam/finalExam.py

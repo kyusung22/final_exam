@@ -1,0 +1,8 @@
+git에서 찾은 git 유효성을 검사하는 중
+git에서 git 2.20.1을(를) 사용하는 중
+> git clone https://github.com/kyusung22/git_test22.git /home/pi/Desktop/git_test22 --progress
+Cloning into '/home/pi/Desktop/git_test22'...
+remote: Enumerating objects: 15, done.        
+remote: Counting objects:   6% (1/15)        remote: Counting objects:  13% (2/15)        remote: Counting objects:  20% (3/15)        remote: Counting objects:  26% (4/15)        remote: Counting objects:  33% (5/15)        remote: Counting objects:  40% (6/15)        remote: Counting objects:  46% (7/15)        remote: Counting objects:  53% (8/15)        remote: Counting objects:  60% (9/15)        remote: Counting objects:  66% (10/15)        remote: Counting objects:  73% (11/15)        remote: Counting objects:  80% (12/15)        remote: Counting objects:  86% (13/15)        remote: Counting objects:  93% (14/15)        remote: Counting objects: 100% (15/15)        remote: Counting objects: 100% (15/15), done.        
+remote: Compressing objects:  14% (1/7)        remote: Compressing objects:  28% (2/7)        remote: Compressing objects:  42% (3/7)        remote: Compressing objects:  57% (4/7)        remote: Compressing objects:  71% (5/7)        remote: Compressing objects:  85% (6/7)        remote: Compressing objects: 100% (7/7)        remote: Compressing objects: 100% (7/7), done.        
+remote: Total 15 (delta 3), reused 15 (delta 3), pack-reused 0        

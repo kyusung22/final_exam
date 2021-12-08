@@ -1,0 +1,51 @@
+[2021-12-08 15:33:56.024] [exthost] [info] Extension host with pid 9996 started
+[2021-12-08 15:33:56.636] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-08 15:33:56.688] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-08 15:33:56.696] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-08 15:33:57.206] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-08 15:33:57.317] [exthost] [info] Eager extensions activated
+[2021-12-08 15:33:57.327] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-08 15:33:57.360] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-08 15:34:19.418] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-08 15:34:20.458] [exthost] [info] Extension host with pid 9996 exiting with code 0
+[2021-12-08 15:34:28.085] [exthost] [info] Extension host with pid 10046 started
+[2021-12-08 15:34:28.085] [exthost] [info] Skipping acquiring lock for /home/pi/.config/Code/User/workspaceStorage/a6a23638402a07baf2b4ea9ccbe97104.
+[2021-12-08 15:34:28.412] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-08 15:34:28.445] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-12-08 15:34:28.718] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-08 15:34:29.265] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-08 15:34:29.276] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-08 15:34:30.383] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-08 15:34:31.929] [exthost] [info] Eager extensions activated
+[2021-12-08 15:34:32.244] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-12-08 15:34:32.282] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-08 15:34:33.094] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4666
+[2021-12-08 15:34:41.912] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-08 15:34:43.609] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-08 15:34:43.638] [exthost] [error] Activating extension ms-python.vscode-pylance failed due to an error:
+[2021-12-08 15:34:43.639] [exthost] [error] Error: Cannot find module '/home/pi/.vscode/extensions/ms-python.vscode-pylance-2021.12.0/dist/extension.bundle.js'
+Require stack:
+- /usr/share/code/resources/app/out/vs/loader.js
+- /usr/share/code/resources/app/out/bootstrap-amd.js
+- /usr/share/code/resources/app/out/bootstrap-fork.js
+	at Function.Module._resolveFilename (internal/modules/cjs/loader.js:934:15)
+	at Module._load (internal/modules/cjs/loader.js:779:27)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.n._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:28606)
+	at Function.b._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:25193)
+	at Function.h._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:60406)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at Module.require (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:1:38461)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.r [as __$__nodeRequire] (/usr/share/code/resources/app/out/vs/loader.js:5:101)
+	at w._loadCommonJSModule (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:26603)
+	at w._doActivateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:12894)
+	at w._activateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11867)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-12-08 15:34:46.311] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4669
+[2021-12-08 15:34:58.311] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4670
+[2021-12-08 15:41:05.004] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2021-12-08 15:41:06.942] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4670
+[2021-12-08 15:42:21.208] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4670
+[2021-12-08 15:42:32.807] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-08 15:42:33.895] [exthost] [info] Extension host with pid 10046 exiting with code 0

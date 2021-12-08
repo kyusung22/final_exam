@@ -1,5 +1,0 @@
-[2021-11-22 09:44:32.341] [renderer1] [info] Starting extension host with pid 1342.
-[2021-11-22 09:44:34.408] [renderer1] [error] [Extension Host] (node:1342) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `code --trace-deprecation ...` to show where the warning was created)
-[2021-11-22 09:44:42.562] [renderer1] [info] Webgl lost context, disposing of webgl renderer
-[2021-11-22 09:45:09.961] [renderer1] [warning] Webgl could not be loaded. Falling back to the canvas renderer type. {}

@@ -1,0 +1,307 @@
+git에서 찾은 git 유효성을 검사하는 중
+git에서 git 2.20.1을(를) 사용하는 중
+> git rev-parse --git-dir
+Open repository: /home/pi/Desktop/git_test22
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s d392f1ae2e181cc1b9f33472b75048b6b29138c6
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/Desktop/git_test22/file.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pi/Desktop/git_test22/file.py
+> git show --textconv fdbd91476b2b38d9d09a9b701c5735efa99ad55e:file.py
+> git show --textconv 713883afbd3d70ba738597af768cfcc5edeb4977:file.py
+> git ls-tree -l fdbd91476b2b38d9d09a9b701c5735efa99ad55e -- /home/pi/Desktop/git_test22/file.py
+> git ls-tree -l 713883afbd3d70ba738597af768cfcc5edeb4977 -- /home/pi/Desktop/git_test22/file.py
+> git check-ignore -v -z --stdin
+> git ls-tree -l fdbd91476b2b38d9d09a9b701c5735efa99ad55e -- /home/pi/Desktop/git_test22/file.py
+> git show --textconv db7450ac733d57413d946076fe9463f3bc328756:file.py
+> git ls-tree -l db7450ac733d57413d946076fe9463f3bc328756 -- /home/pi/Desktop/git_test22/file.py
+> git check-ignore -v -z --stdin
+> git show --textconv :file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s d392f1ae2e181cc1b9f33472b75048b6b29138c6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/pi/Desktop/git_test22/file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 3308e51554211e08a13aa0d3cc7141f1f9facc21
+> git show --textconv :file.py
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 3308e51554211e08a13aa0d3cc7141f1f9facc21
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 3308e51554211e08a13aa0d3cc7141f1f9facc21
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z HEAD
+> git reset --soft HEAD~
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 3308e51554211e08a13aa0d3cc7141f1f9facc21
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git branch
+> git reset -q HEAD -- /home/pi/Desktop/git_test22/file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s d392f1ae2e181cc1b9f33472b75048b6b29138c6
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv HEAD:file.py
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git checkout -q -- /home/pi/Desktop/git_test22/file.py
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git show --textconv HEAD:file.py
+> git rev-list --count 03d74b1501552d5a854dd08182ca8c91681b907d.. -- /home/pi/Desktop/git_test22/file.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n6 -- /home/pi/Desktop/git_test22/file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git rev-list --count 03d74b1501552d5a854dd08182ca8c91681b907d.. -- /home/pi/Desktop/git_test22/file.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n6 -- /home/pi/Desktop/git_test22/file.py
+> git show --textconv :file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s d392f1ae2e181cc1b9f33472b75048b6b29138c6
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git show --textconv :file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s d392f1ae2e181cc1b9f33472b75048b6b29138c6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git push origin master:master
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/pi/Desktop/git_test22/file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 29d198231fc02fcfe6867d7c9c9703dcb3f1ba01
+> git show --textconv :file.py
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 29d198231fc02fcfe6867d7c9c9703dcb3f1ba01
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 29d198231fc02fcfe6867d7c9c9703dcb3f1ba01
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+Everything up-to-date
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/pi/Desktop/git_test22/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git push origin master:master
+To https://github.com/kyusung22/git_test22.git
+   713883a..f52ae13  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 29d198231fc02fcfe6867d7c9c9703dcb3f1ba01
+> git push origin master:master
+Everything up-to-date
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 29d198231fc02fcfe6867d7c9c9703dcb3f1ba01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 03d74b1501552d5a854dd08182ca8c91681b907d.. -- /home/pi/Desktop/git_test22/file.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n7 -- /home/pi/Desktop/git_test22/file.py
+> git push origin master:master
+Everything up-to-date
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/pi/Desktop/git_test22/file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 9f622dd8a82ea83e3a584b4a0e267e3a9ad60273
+> git show --textconv :file.py
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 9f622dd8a82ea83e3a584b4a0e267e3a9ad60273
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 9f622dd8a82ea83e3a584b4a0e267e3a9ad60273
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git push origin master:master
+To https://github.com/kyusung22/git_test22.git
+   f52ae13..1429fca  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 9f622dd8a82ea83e3a584b4a0e267e3a9ad60273
+> git show --textconv HEAD:file.py
+> git show --textconv :file.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/pi/Desktop/git_test22/file.py
+> git ls-files --stage -- /home/pi/Desktop/git_test22/file.py
+> git cat-file -s 9f622dd8a82ea83e3a584b4a0e267e3a9ad60273
+> git check-ignore -v -z --stdin

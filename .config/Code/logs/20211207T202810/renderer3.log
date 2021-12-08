@@ -1,0 +1,9 @@
+[2021-12-07 20:28:42.873] [renderer3] [info] Starting extension host with pid 3557.
+[2021-12-07 20:28:42.875] [renderer3] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 110 ms.
+[2021-12-07 20:28:44.648] [renderer3] [error] [Extension Host] (node:3557) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-07 20:29:08.030] [renderer3] [info] Starting extension host with pid 3628.
+[2021-12-07 20:29:08.040] [renderer3] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 123 ms.
+[2021-12-07 20:29:10.951] [renderer3] [error] [Extension Host] (node:3628) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-07 20:30:01.649] [renderer3] [info] Webgl lost context, disposing of webgl renderer

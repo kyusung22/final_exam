@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Final Exam</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> <!-- css 파일 지정-->
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Final Exam</h2>
+        </div>
+        <div class="main">
+            <div>
+                
+                <button onclick="getD()" id="button1" value="Open Curtain" >Measure Distance</button>                      <!-- Javascript 함수 지정 -->
+            </div>
+           
+        </div>
+        <div id="result_d">
+<label id= "result"> cm </label>>
+        </div>
+    </div>
+
+    <script>
+        function led_on(){
+            fetch("/getD")  
+        }
+
+
+    </script>
+</body>
+</html>

@@ -3,6 +3,27 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "file:///home/pi/class/gpio/finalExam"
+            },
+            {
+                "folderUri": "file:///home/pi/class/gpio"
+            },
+            {
+                "folderUri": "file:///home/pi/class8/git_test22"
+            },
+            {
+                "folderUri": "file:///home/pi/Desktop/git_test22"
+            },
+            {
+                "folderUri": "file:///home/pi/classes/iot/ch13/final2"
+            },
+            {
+                "folderUri": "file:///home/pi/classes/iot/ch13/final"
+            },
+            {
+                "folderUri": "file:///home/pi/class"
+            },
+            {
                 "folderUri": "file:///home/pi/classes/iot/ch13/test2"
             },
             {
@@ -10,12 +31,6 @@
             },
             {
                 "folderUri": "file:///home/pi/classes/iot/ch13/test5"
-            },
-            {
-                "folderUri": "file:///home/pi/class"
-            },
-            {
-                "folderUri": "file:///home/pi/class/gpio"
             },
             {
                 "folderUri": "file:///home/pi/class/iot"
@@ -78,7 +93,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "닫힌 편집기 다시 열기(&&R)"
+                                    "label": "닫힌 편집기 다시 열기(&&R)",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -87,7 +103,84 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/pi/classes/iot/ch13/test2",
+                                        "fsPath": "/home/pi/class/gpio/finalExam",
+                                        "external": "file:///home/pi/class/gpio/finalExam",
+                                        "path": "/home/pi/class/gpio/finalExam",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/class/gpio/finalExam"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/class/gpio",
+                                        "path": "/home/pi/class/gpio",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/class/gpio"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/class8/git_test22",
+                                        "path": "/home/pi/class8/git_test22",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/class8/git_test22"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/Desktop/git_test22",
+                                        "path": "/home/pi/Desktop/git_test22",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/git_test22"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/classes/iot/ch13/final2",
+                                        "path": "/home/pi/classes/iot/ch13/final2",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/classes/iot/ch13/final2"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/classes/iot/ch13/final",
+                                        "path": "/home/pi/classes/iot/ch13/final",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/classes/iot/ch13/final"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/class",
+                                        "path": "/home/pi/class",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/class"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/pi/classes/iot/ch13/test2",
                                         "path": "/home/pi/classes/iot/ch13/test2",
                                         "scheme": "file"
@@ -116,39 +209,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/classes/iot/ch13/test5"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/pi/class",
-                                        "path": "/home/pi/class",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/class"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/pi/class/gpio",
-                                        "path": "/home/pi/class/gpio",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/class/gpio"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/pi/class/iot",
-                                        "path": "/home/pi/class/iot",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/class/iot"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -264,7 +324,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "모두 저장(&&L)"
+                        "label": "모두 저장(&&L)",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -626,13 +687,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "그룹으로 분할(&&G)"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "단일(&&S)"
                                 },
@@ -694,10 +748,6 @@
                         "label": "실행(&&R)"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "테스트(&E)"
-                    },
-                    {
                         "id": "workbench.view.extensions",
                         "label": "확장(&&X)"
                     },
@@ -725,7 +775,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "자동 줄 바꿈(&&W)"
+                        "label": "자동 줄 바꿈(&&W)",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -753,7 +804,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "뒤로(&&B)"
+                        "label": "뒤로(&&B)",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -762,7 +814,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "마지막 편집 위치(&&L)"
+                        "label": "마지막 편집 위치(&&L)",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1418,11 +1471,6 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
             },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+<Shift>+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
-            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1670,47 +1718,45 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 349,
+            "sideBarWidth": 256,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/pi/classes/iot/ch13/test2",
-            "backupPath": "/home/pi/.config/Code/Backups/1d35b05680243f6cdb88fb24b393b9f8",
+            "backupPath": "/home/pi/.config/Code/Backups/1638947291271",
             "uiState": {
-                "mode": 0,
-                "x": 548,
-                "y": 30,
+                "mode": 1,
+                "x": 750,
+                "y": 169,
                 "width": 1024,
-                "height": 1046
+                "height": 768
             }
         },
         "openedWindows": [
             {
-                "folder": "file:///home/pi/class",
-                "backupPath": "/home/pi/.config/Code/Backups/a344d1171350abaf636c703a6192f8c6",
+                "folder": "file:///home/pi/class/gpio",
+                "backupPath": "/home/pi/.config/Code/Backups/e356b2793b157460bed0c9bf6cdbeb98",
                 "uiState": {
                     "mode": 0,
-                    "x": 327,
-                    "y": 325,
-                    "width": 1437,
-                    "height": 1014
+                    "x": 24,
+                    "y": 63,
+                    "width": 1024,
+                    "height": 1041
                 }
             },
             {
-                "folder": "file:///home/pi/classes/iot/ch13/test2",
-                "backupPath": "/home/pi/.config/Code/Backups/1d35b05680243f6cdb88fb24b393b9f8",
+                "backupPath": "/home/pi/.config/Code/Backups/1638947291271",
                 "uiState": {
-                    "mode": 0,
-                    "x": 548,
-                    "y": 30,
+                    "mode": 1,
+                    "x": 750,
+                    "y": 169,
                     "width": 1024,
-                    "height": 1046
+                    "height": 768
                 }
             }
         ]
     },
-    "pickerWorkingDir": "/home/pi/classes/iot/ch13"
+    "pickerWorkingDir": "/home/pi/class/gpio"
 }

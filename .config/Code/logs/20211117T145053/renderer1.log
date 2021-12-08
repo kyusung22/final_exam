@@ -1,9 +1,0 @@
-[2021-11-17 14:50:58.617] [renderer1] [info] Starting extension host with pid 1280.
-[2021-11-17 14:51:00.713] [renderer1] [error] [Extension Host] (node:1280) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `code --trace-deprecation ...` to show where the warning was created)
-[2021-11-17 14:51:09.114] [renderer1] [info] Webgl lost context, disposing of webgl renderer
-[2021-11-17 14:54:17.011] [renderer1] [warning] Webgl could not be loaded. Falling back to the canvas renderer type. {}
-[2021-11-17 16:07:09.075] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
-	at /home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
-	at h (/home/pi/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
-	at async U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:180703)

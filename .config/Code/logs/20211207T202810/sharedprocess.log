@@ -1,0 +1,5 @@
+[2021-12-07 20:28:18.627] [sharedprocess] [info] Deleted from disk ms-ceintl.vscode-language-pack-ko /home/pi/.vscode/extensions/ms-ceintl.vscode-language-pack-ko-1.61.5
+[2021-12-07 20:28:19.081] [sharedprocess] [info] Deleted from disk ms-toolsai.jupyter /home/pi/.vscode/extensions/ms-toolsai.jupyter-2021.9.1101343141
+[2021-12-07 20:28:19.720] [sharedprocess] [info] Deleted from disk ms-toolsai.jupyter-renderers /home/pi/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.3
+[2021-12-07 20:28:20.701] [sharedprocess] [info] Deleted from disk ms-python.vscode-pylance /home/pi/.vscode/extensions/ms-python.vscode-pylance-2021.11.2
+[2021-12-07 20:28:22.046] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

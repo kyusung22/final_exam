@@ -1,0 +1,12 @@
+[2021-12-08 12:11:35.704] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.createExtensionHost() took 21 ms.
+[2021-12-08 12:11:35.799] [renderer1] [info] Starting extension host with pid 3651.
+[2021-12-08 12:11:35.801] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 39 ms.
+[2021-12-08 12:11:38.744] [renderer1] [error] [Extension Host] (node:3651) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-08 12:32:42.478] [renderer1] [info] Webgl lost context, disposing of webgl renderer
+[2021-12-08 14:11:43.436] [renderer1] [error] getaddrinfo EAI_AGAIN default.exp-tas.com: Error: getaddrinfo EAI_AGAIN default.exp-tas.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+[2021-12-08 14:41:43.371] [renderer1] [error] getaddrinfo EAI_AGAIN default.exp-tas.com: Error: getaddrinfo EAI_AGAIN default.exp-tas.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+[2021-12-08 15:11:43.347] [renderer1] [error] getaddrinfo EAI_AGAIN default.exp-tas.com: Error: getaddrinfo EAI_AGAIN default.exp-tas.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)

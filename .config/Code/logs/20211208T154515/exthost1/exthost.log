@@ -1,0 +1,56 @@
+[2021-12-08 15:45:23.426] [exthost] [info] Extension host with pid 10814 started
+[2021-12-08 15:45:23.427] [exthost] [info] Skipping acquiring lock for /home/pi/.config/Code/User/workspaceStorage/a6a23638402a07baf2b4ea9ccbe97104.
+[2021-12-08 15:45:23.855] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-08 15:45:23.890] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-08 15:45:23.901] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-08 15:45:24.428] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-08 15:45:24.718] [exthost] [info] Eager extensions activated
+[2021-12-08 15:45:25.414] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4683
+[2021-12-08 15:45:30.562] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-08 15:45:31.413] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-12-08 15:45:31.728] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-08 15:45:32.264] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-08 15:45:33.172] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-12-08 15:45:33.640] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-08 15:45:33.646] [exthost] [error] Activating extension ms-python.vscode-pylance failed due to an error:
+[2021-12-08 15:45:33.646] [exthost] [error] Error: Cannot find module '/home/pi/.vscode/extensions/ms-python.vscode-pylance-2021.12.0/dist/extension.bundle.js'
+Require stack:
+- /usr/share/code/resources/app/out/vs/loader.js
+- /usr/share/code/resources/app/out/bootstrap-amd.js
+- /usr/share/code/resources/app/out/bootstrap-fork.js
+	at Function.Module._resolveFilename (internal/modules/cjs/loader.js:934:15)
+	at Module._load (internal/modules/cjs/loader.js:779:27)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.n._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:28606)
+	at Function.b._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:25193)
+	at Function.h._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:60406)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at Module.require (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:1:38461)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.r [as __$__nodeRequire] (/usr/share/code/resources/app/out/vs/loader.js:5:101)
+	at w._loadCommonJSModule (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:26603)
+	at w._doActivateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:12894)
+	at w._activateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11867)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 0)
+[2021-12-08 15:45:41.708] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2021-12-08 15:47:18.448] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage:html'
+[2021-12-08 15:47:18.546] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2021-12-08 15:47:24.807] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-12-08 15:47:24.808] [exthost] [error] Canceled: Canceled
+	at T.makeCancelError (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:435212)
+	at T.handleFailedRequest (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:435063)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:395278
+	at async d.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170516)
+[2021-12-08 15:47:51.253] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-12-08 16:00:43.576] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4748
+[2021-12-08 16:01:17.860] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4739
+[2021-12-08 16:02:58.700] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4740
+[2021-12-08 16:03:42.383] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4740
+[2021-12-08 16:06:00.305] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4784
+[2021-12-08 16:06:12.830] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4772
+[2021-12-08 16:06:31.371] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4772
+[2021-12-08 16:07:49.078] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugResolve:pwa-chrome'
+[2021-12-08 16:07:51.022] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-08 16:07:51.068] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-08 16:07:53.301] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4777

@@ -1,0 +1,47 @@
+[2021-12-07 20:28:45.187] [exthost] [info] Extension host with pid 3557 started
+[2021-12-07 20:28:45.970] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-07 20:28:46.011] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-07 20:28:46.033] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-07 20:28:46.613] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-07 20:28:46.743] [exthost] [info] Eager extensions activated
+[2021-12-07 20:28:46.782] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-07 20:28:46.798] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-07 20:29:04.419] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-07 20:29:05.434] [exthost] [info] Extension host with pid 3557 exiting with code 0
+[2021-12-07 20:29:11.590] [exthost] [info] Extension host with pid 3628 started
+[2021-12-07 20:29:11.591] [exthost] [info] Skipping acquiring lock for /home/pi/.config/Code/User/workspaceStorage/cff43a83db9f6668348d27c84d049968.
+[2021-12-07 20:29:12.345] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-07 20:29:12.390] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-07 20:29:12.398] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-07 20:29:13.407] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-07 20:29:13.517] [exthost] [info] Eager extensions activated
+[2021-12-07 20:29:13.544] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-07 20:29:13.563] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-07 20:29:50.184] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-12-07 20:29:50.773] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-07 20:29:53.368] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-12-07 20:29:53.545] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-07 20:29:53.556] [exthost] [error] Activating extension ms-python.vscode-pylance failed due to an error:
+[2021-12-07 20:29:53.556] [exthost] [error] Error: Cannot find module '/home/pi/.vscode/extensions/ms-python.vscode-pylance-2021.12.0/dist/extension.bundle.js'
+Require stack:
+- /usr/share/code/resources/app/out/vs/loader.js
+- /usr/share/code/resources/app/out/bootstrap-amd.js
+- /usr/share/code/resources/app/out/bootstrap-fork.js
+	at Function.Module._resolveFilename (internal/modules/cjs/loader.js:934:15)
+	at Module._load (internal/modules/cjs/loader.js:779:27)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.n._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:28606)
+	at Function.b._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:25193)
+	at Function.h._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:60406)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at Module.require (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:1:38461)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.r [as __$__nodeRequire] (/usr/share/code/resources/app/out/vs/loader.js:5:101)
+	at w._loadCommonJSModule (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:26603)
+	at w._doActivateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:12894)
+	at w._activateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11867)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 0)
+[2021-12-07 20:29:57.181] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2021-12-07 20:32:24.595] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-07 20:32:25.704] [exthost] [info] Extension host with pid 3628 exiting with code 0

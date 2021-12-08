@@ -1,6 +1,0 @@
-[2021-11-21 18:20:32.106] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.createExtensionHost() took 22 ms.
-[2021-11-21 18:20:32.208] [renderer1] [info] Starting extension host with pid 1308.
-[2021-11-21 18:20:34.173] [renderer1] [error] [Extension Host] (node:1308) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `code --trace-deprecation ...` to show where the warning was created)
-[2021-11-21 18:20:42.733] [renderer1] [info] Webgl lost context, disposing of webgl renderer
-[2021-11-21 18:57:46.050] [renderer1] [warning] Webgl could not be loaded. Falling back to the canvas renderer type. {}

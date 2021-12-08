@@ -1,0 +1,24 @@
+Info 2021-12-07 20:34:34: Experimentation service retrieved: [object Object]
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 2021-12-07 20:34:34: ZMQ install verified.
+Info 2021-12-07 20:34:35: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+Info 2021-12-07 20:34:36: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+Info 2021-12-07 20:34:36: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+Info 2021-12-07 20:34:36: Process Execution: > /bin/python3 -c "import jupyter"
+> /bin/python3 -c "import jupyter"
+Info 2021-12-07 20:34:36: Process Execution: > /bin/python3 -c "import jupyter"
+> /bin/python3 -c "import jupyter"
+Info 2021-12-07 20:34:36: Process Execution: > /bin/python3 -c "import notebook"
+> /bin/python3 -c "import notebook"
+Info 2021-12-07 20:34:36: Process Execution: > /bin/python3 -c "import notebook"
+> /bin/python3 -c "import notebook"
+Info 2021-12-07 20:43:06: Shutting down notebooks for 494f068c-38ca-4307-b613-f1284c8cb33e
+Info 2021-12-07 20:43:06: Disposing HostJupyterExecution d6189c9d-bde5-4646-8217-fdb77149100c
+Info 2021-12-07 20:43:06: Disposing super HostJupyterExecution d6189c9d-bde5-4646-8217-fdb77149100c
+Info 2021-12-07 20:43:06: Disposing HostJupyterExecution d6189c9d-bde5-4646-8217-fdb77149100c
+Info 2021-12-07 20:43:06: Finished disposing HostJupyterExecution  d6189c9d-bde5-4646-8217-fdb77149100c
+Info 2021-12-07 20:43:06: Cleaning up server cache d6189c9d-bde5-4646-8217-fdb77149100c
+Info 2021-12-07 20:43:06: Finished disposing HostJupyterExecution  d6189c9d-bde5-4646-8217-fdb77149100c
